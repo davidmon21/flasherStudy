@@ -1,0 +1,422 @@
+[
+    {
+        "front": "IDE for SAPUI5",
+        "back": "BAS and WebIDE"
+    },
+    {
+        "front": "Tool for prototyping applications using SAP Fiori elements or imported images of User Interfaces",
+        "back": "SAP Build"
+    },
+    {
+        "front": "UX Strategy, Design Thinking",
+        "back": "Discover(Scope, 360 research, Synthesize), Design(ideate, prototype, validate), Deliver(Develop, Test, Deploy)"
+    },
+    {
+        "front": "CAI and CUX",
+        "back": "Conversational AI, Conversational UX(User Experience)"
+    },
+    {
+        "front": "XData, OData",
+        "back": "eXperience Data, Operational Data"
+    },
+    {
+        "front": "5 Design Principals",
+        "back": "Role Based, Adaptive, Coherent, Simple, Delightful"
+    },
+    {
+        "front": "Customizable Role-Based start page and Frame for Fiori Web Apps",
+        "back": "SAP Fiori Launchpad"
+    },
+    {
+        "front": "3 Dimensions SAP Fiori",
+        "back": "Concept Design Technology"
+    },
+    {
+        "front": "Which clients can be used for SAP Fiori?",
+        "back": "Web Browser, SAP Business Client"
+    },
+    {
+        "front": "Which platforms support the integration of SAP Fiori?",
+        "back": "SAP Enterprise Portal, SAP Cloud Platform Portal, SAP Cloud Platform Mobile Services"
+    },
+    {
+        "front": "Which personalization elements can be assigned to user roles?",
+        "back": "SAP Fiori Group and SAP Fiori Catalog"
+    },
+    {
+        "front": "Which personalization element refers to the application?",
+        "back": "SAP Fiori Catalog Tile"
+    },
+    {
+        "front": "3 Main Technologies used in current SAP applications?",
+        "back": "SAP GUI for HTML, Web Dynpro ABAP, SAPUI5"
+    },
+    {
+        "front": "Classic screens are developed and run in ABAP using the",
+        "back": "SAP GUI For HTML"
+    },
+    {
+        "front": "Developed in ABAP but uses JavaScript in the browser to communicate with the ABAP System",
+        "back": "Web Dynpro"
+    },
+    {
+        "front": "Pure JavaScript and communicates with ABAP using SAP Gateway",
+        "back": "SAPUI5"
+    },
+    {
+        "front": "SAP Screen Personas used for",
+        "back": "Classic Screens(including Control Framework[CFW]) and Web Dynpro(including Floorplan Manager[FPM])"
+    },
+    {
+        "front": "SAP Business Application Studio used for",
+        "back": "SAPUI5(including SAP Fiori)"
+    },
+    {
+        "front": "All UI Technologies can be consumed using a ___ or the ___",
+        "back": "Web Browser, SAP Busniness Client"
+    },
+    {
+        "front": "Classic screens are displayed using ___ in the ___ as well as ___",
+        "back": "SAP GUI for Windows, Business Client, SAP Logon"
+    },
+    {
+        "front": "When it comes to the design of user interface, one tool handles all technologies: ___ ",
+        "back": "the UI Theme Designer"
+    },
+    {
+        "front": "Describes digital assistants and chat bots for communicating with enterprise systems.",
+        "back": "Conversational User Experience"
+    },
+    {
+        "front": "Is a combination of SAP CoPilot and the startup formerly known as Recast.AI, Enables users to smoothly interact with SAP Software through one unique conversational interface",
+        "back": "Conversational User Experience"
+    },
+    {
+        "front": "Skills of conversational agents are built, trained, generated and connected using the ___",
+        "back": "Bot Builder"
+    },
+    {
+        "front": "UI5 technological features",
+        "back": "JS-based HTML5 browser rendering library, Extensible UI Component model built on JQuery, SAP Product Standard compliant, Themeing support based on CSS3, Asynchronous Javascript and XML(AJAX) Support"
+    },
+    {
+        "front": "Default SAP UI Theme",
+        "back": "was Blue Crystal, currently Belize"
+    },
+    {
+        "front": "Seperates the tasks in an application into 3 programmatic elements",
+        "back": "Model View Controller(MVC)"
+    },
+    {
+        "front": "Holds the data and/or connection to the data source organized in JSON or XML connection to OData",
+        "back": "Model"
+    },
+    {
+        "front": "Holds the user interface consisting of UI Elements organized in libraries",
+        "back": "View"
+    },
+    {
+        "front": "Holds the logic of the application reacting on messages from models and views and updating these",
+        "back": "Controller"
+    },
+    {
+        "front": "In SAP Fiori, views are defined using ___. The only SAP Fiori app that uses HTML is the ___ which provides a frame for the XML-Based Views. All controllers are developed using ___ and are either bound to a view or standalone to be used by multiple views. ____ Can be used on the views to connect to data in the Models",
+        "back": "XML, SAP Fiori Launchpad, JavaScript, Data Binding"
+    },
+    {
+        "front": "Digits in SAP Versions",
+        "back": "First Digit specifies the release number(major version), Second digit specifies the version number(minor version), Third digit specifies the patch number"
+    },
+    {
+        "front": "View SAPUI5 versions available on an Application Server ABAP",
+        "back": "https://<host>:<port>/sap/public/bc/ui5_ui5/index.html"
+    },
+    {
+        "front": "Version a running app is using can be viewed with",
+        "back": "Technical information Dialog Opened via CTRL-ALT-SHIFT-P"
+    },
+    {
+        "front": "Development Environment on SAP Cloud Platform NEO supporting SAP Fiori, SAP S/4HANA Cloud, SAP Leonardo, SAP HANA, SAP CP Mobile Services including programming languages such as SAPUI5, Java, and Node.js",
+        "back": "SAP Web IDE Full Stack"
+    },
+    {
+        "front": "Native development Environment for SAP HANA provided by SAP HANA Extended Services Advanced Including programming languages such as Java and Node.js",
+        "back": "SAP Web IDE for SAP HANA"
+    },
+    {
+        "front": "Local Development Environment for SAP Fiori and SAPUI5",
+        "back": "SAP Web IDE Personal Edition"
+    },
+    {
+        "front": "Based on theia, opensource project by Eclipse. Next Generation of SAP Web IDE provided in SAP Cloud Platform Cloud Foundry, provides preconfigured environments called Dev-Spaces, with pre-Installed runtimes and tools tailored for key scenarios. Based on extensions such as SAP Fiori tools extension.",
+        "back": "SAP Business Application Studio"
+    },
+    {
+        "front": "Serves as a container for SAPUI5 apps",
+        "back": "Business Server Page"
+    },
+    {
+        "front": "Standalone software available free of charge to connect services in SAP CP with on Premise Systems in the customer Network",
+        "back": "Cloud Connector"
+    },
+    {
+        "front": "Connector attached to an SAP back-end system translates between ABAP APIs and OData entities",
+        "back": "SAP Gateway"
+    },
+    {
+        "front": "Enhance OData by adding additional information like dictionary labels.",
+        "back": "SAP Annotations"
+    },
+    {
+        "front": "Defines the standard to transfer Data using already established technologies",
+        "back": "OData also called ODBC for the web"
+    },
+    {
+        "front": "Standard originally developed by microsoft, now managed by Oasis Organization",
+        "back": "OData"
+    },
+    {
+        "front": "OData based on ___ and ___ standards, which in turn are based on XML and HTTPs",
+        "back": "Atom Publishing and Atom Syndication"
+    },
+    {
+        "front": "Objective of protocol is to provide vendor-neutral, web-based API that fully complies with the design principles of REST",
+        "back": "OData"
+    },
+    {
+        "front": "REST",
+        "back": "Representational State Transfer"
+    },
+    {
+        "front": "SAP Gateway supports OData __ Since AS ABAP 7.00 and OData __ since AS ABAP 7.50",
+        "back": "V2, V4"
+    },
+    {
+        "front": "__ is often used because it needs considerably less meta-information, reducing data transferred greatly.",
+        "back": "JSON"
+    },
+    {
+        "front": "___ data is used because of extensive meta-information during development",
+        "back": "Atom and XML"
+    },
+    {
+        "front": "HTTP Verbs OData uses",
+        "back": "GET, PUT, POST and DELETE"
+    },
+    {
+        "front": "Entites of an OData service are defined in an ___",
+        "back": "EDM(Entity Data Model)"
+    },
+    {
+        "front": "___ define properties and navigations to other ___. These associations define relation constraints based on key properties of the ___",
+        "back": "Entity Types"
+    },
+    {
+        "front": "Is used to actively navigate between entities during runtime.",
+        "back": "Navigation Property"
+    },
+    {
+        "front": "For every entity type at least one ___ is defined",
+        "back": "Entity Set"
+    },
+    {
+        "front": "Entity Data Model, Entity Types, Navigation Properties are shown in the ___",
+        "back": "Service Metadata Document"
+    },
+    {
+        "front": "To view the meta data document of a service add ___ to the service root URL where the whole EDM is defined and available at runtime.",
+        "back": "$METADATA"
+    },
+    {
+        "front": "Provides a single entry point to access business data of ABAP-based systems such as the SAP Business Suite or the SAP S/4HANA",
+        "back": "SAP Gateway"
+    },
+    {
+        "front": "Performs similar role to SAP Gateway but in SAP HANA",
+        "back": "SAP HANA Extended Applications Services(XS)"
+    },
+    {
+        "front": "For mobile devices the ___ adds aditional value to the applications.",
+        "back": "SAP Cloud Platform(CP) Mobile Services"
+    },
+    {
+        "front": "Gateway service maintenanc transaction, offers a list of all registered OData services in the system. Complete maintenance of these services is possible here.",
+        "back": "/IWFND/MAINT_SERVICE"
+    },
+    {
+        "front": "Three areas of /IWFND/MAINT_SERVICE transaction",
+        "back": "Service Catalog, ICF Nodes, System aliases"
+    },
+    {
+        "front": "For services not connecting to other systems, the Processing Mode is set to ___ and no system alias is assigned.",
+        "back": "Co-deployed only"
+    },
+    {
+        "front": "Gateway Service Administration for OData V4 consist of two transactions: one defines service groups, other registers",
+        "back": "/IWBEP/V4_ADMIN,/IWFND/V4_ADMIN"
+    },
+    {
+        "front": "You can test functionalities of an OData service, using transaction",
+        "back": "/IWFND/GW_CLIENT"
+    },
+    {
+        "front": "3 Types of SAP Fiori Apps",
+        "back": "Transactional Apps, Analytical Apps, Fact Sheet Apps"
+    },
+    {
+        "front": "Usage of ABAP to provide the classical approach for functions of a business system, Available for SAP S/4HANA and SAP Business Suite on any Database",
+        "back": "Transactional Apps"
+    },
+    {
+        "front": "Usage of analytical capabilities of SAP HANA to provide insights in business data, Available for SAP S/4HANA and SAP Business Suite powered by SAP HANA",
+        "back": "Analytical Apps"
+    },
+    {
+        "front": "Usage of Enterprise Search capabilties of SAP HANA to provide results, Available for SAP S/4HANA and SAP Business Suite powered by SAP HANA",
+        "back": "Fact Sheet Apps"
+    },
+    {
+        "front": "Apps where complete UI is controlled by metadata annotations in SAPUI5, SAP Gateway or CDS Views",
+        "back": "SAP Fiori Elements"
+    },
+    {
+        "front": "Types of SAP FIORI Elements Apps",
+        "back": "List Report, Object Page, Overview Page, Analytical List Page, Worklist"
+    },
+    {
+        "front": "Enables users to view and work with items(objects) organized in list(table) format.",
+        "back": "List Report"
+    },
+    {
+        "front": "Provides functionality to view, edit, and create(business) objects.",
+        "back": "Object Page"
+    },
+    {
+        "front": "Visualizes large amount of data in cards with different formats for different types of content",
+        "back": "Overview Page"
+    },
+    {
+        "front": "Identifies relavant areas within data sets or significant single instances using data visualizationand business intelligence",
+        "back": "Analytical List Page"
+    },
+    {
+        "front": "Displays a collection of items that a user must process",
+        "back": "Worklist"
+    },
+    {
+        "front": "The ___ of a transaction is its transaction code",
+        "back": "App ID"
+    },
+    {
+        "front": "Each SAP fiori app has a unique ___",
+        "back": "App ID"
+    },
+    {
+        "front": "The ___ can be used to search for the documentation of an app in the SAP Fiori apps reference library",
+        "back": "App ID"
+    },
+    {
+        "front": "With ___ you can closely monitor your most important KPIs in real time and react immediately to changes in market conditions or operations.",
+        "back": "SAP Smart Business"
+    },
+    {
+        "front": "KPIs",
+        "back": "Key Performance Indicators"
+    },
+    {
+        "front": "___ and ___ are System roles of an Application Server ___ or ___ in SAP Fiori app landscape",
+        "back": "SAP Front-End Server(FES), SAP Back-End Server(BES),ABAP, ABAP Platform"
+    },
+    {
+        "front": "From release 7.53 Application Server ABAP is renamed ___",
+        "back": "ABAP Platform"
+    },
+    {
+        "front": "It is recommended to use ___ for FLP and FES in external facing scenarios and also internally",
+        "back": "SAP Web Dispatcher or another reverse proxy"
+    },
+    {
+        "front": "Offers a single point of communication holding routing rules to forward request to the correct target systems",
+        "back": "A reverse proxy"
+    },
+    {
+        "front": "You can deploy all components of SAP Fiori in one system in an ___",
+        "back": "embedded deployment"
+    },
+    {
+        "front": "The FES and BES are two seperated systems splitting the tasks in providing SAP Fiori",
+        "back": "Central Hub Deployment"
+    },
+    {
+        "front": "___ is the part you have to carefully check, which settings are in which system, the FES has many benefits in organizational and security terms",
+        "back": "SAP Gateway"
+    },
+    {
+        "front": "The recommend option for SAP Business Suite is the ___",
+        "back": "embedded scenerio"
+    },
+    {
+        "front": "BES on any database supports ____ based on SAPUI5 and legacy apps based on ___ and ___",
+        "back": "Transactional apps, Web Dynpro, ABAP Transactions"
+    },
+    {
+        "front": "Madatory components of the FES are ___ for ___, the central UI for general SAP Fiori functions and product UIs for the apps.",
+        "back": "SAP Gateway, OData Communication"
+    },
+    {
+        "front": "Is both in the BES and FES",
+        "back": "SAP Gateway"
+    },
+    {
+        "front": "To use any SAP Fiori app a running ___ is needed, the ___ must read and write data from and to the FES using OData",
+        "back": "Fiori Launch Pad(FLP)"
+    },
+    {
+        "front": "Central UI, views, functions and tools for personalization, customizing and configuration of contents are part of",
+        "back": "FLP"
+    },
+    {
+        "front": "There is no communication to the BES by the FLP: T/F",
+        "back": "T"
+    },
+    {
+        "front": "OData FES-> Backend SAP Gateway -> SAP Gateway framework creates an ___ to the implementation of the Gateway service on the BES",
+        "back": "RFC Request"
+    },
+    {
+        "front": "___ coding is used to access the data in the database",
+        "back": "ABAP"
+    },
+    {
+        "front": "___ applications are part of the BES solution and have no interaction with the FES",
+        "back": "Classic"
+    },
+    {
+        "front": "The only role the FES has in Classical applications is",
+        "back": "providing connection information to the BES when a navigation request is initiated in the FLP"
+    },
+    {
+        "front": "SAP Gateway consist mainly of the software component ___",
+        "back": "SAP_GWFND"
+    },
+    {
+        "front": "Common add-ons depracated since SAP Gateway 7.51 and SAP Fiori 2.0",
+        "back": "IW_GIL(Generic Interaction Layer), IW_PGW, IW_SPI(Service Provider Infrastructure)"
+    },
+    {
+        "front": "centeral UI component part of every AS ABAP since 7.40",
+        "back": "SAP_UI"
+    },
+    {
+        "front": "The ABAP classes seperate into two ___ that provide coding for the service metadata and two ___ that provide the coding to handle service requests.",
+        "back": "model provider classes(MPC), data provider classes(DPC)"
+    },
+    {
+        "front": "Central Gateway development environment in the back end",
+        "back": "Gateway Service Builder(SEGW)"
+    },
+    {
+        "front": "Central ABAP development environment in the back end",
+        "back": "ABAP Workbench(SE80)"
+    }
+]

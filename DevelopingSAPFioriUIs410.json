@@ -1,0 +1,108 @@
+[
+    {
+        "front": "Which of the following can be used for usability assessment?",
+        "options": {"A": "Heuristic Evaluation", "B": "User Testing","C": "User Observation","D": "Questionaire"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "What are the Key Aspects of SAP UX's Strategy?",
+        "back": "Design strategy, New/Renew/Empower, Architecture Technology"
+    },
+    {
+        "front": "What application type is implemented to analyze a huge amount of data with diagrams?",
+        "back": "Analytical"
+    },
+    {
+        "front": "The SAP Fiori Design Guidelines are available for various device types. For what device types are the design guidelines available?",
+        "options": {"A": "Sap Fiori for Windows", "B": "SAP Fiori for Andriod", "C": "SAP Fiori for Web", "D": "SAP Fiori for iOS", "E": "SAP Fiori for Blackberry"},
+        "back": ["B","C","D"]
+    },
+    {
+        "front": "Which different app types can be found in SAP Fiori?",
+        "options": {"A": "Conceptual", "B": "Industrial", "C": "Technical", "D": "Infrastructural", "E": "Mobile"},
+        "back": ["A","C"]
+    },
+    {
+        "front": "What is true of the SAP Business Technology Platform SAP Business Application Studio?",
+        "options": {"A": "It requires zero installation","B": "Provides only SAP Cloud Programming capabilities", "C": "Is updated on a regular basis","D":"Does only provide one workspace for project organization"},
+        "back": ["A","C"]
+    },
+    {
+        "front": "What router class is used in SAP Fiori apps as a router or as a router base class, when you want to implement your own router?",
+        "back": "sap.m.routing.Router"
+    },
+    {
+        "front": "What of the following are important technologies of the ABAP programming model of SAP Fiori?",
+        "options": {"A": "SAPUI5 and SAP Fiori Elements", "B": "IABAP Core Data Services", "C": "BAdi and RFC", "D": "SAP HANA"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "What aggregations are defined by the sap.suite.ui.commons.ChartContainer?",
+        "options": {"A": "content", "B": "container", "C": "dimensionSelector", "D": "customicons", "E": "legend"},
+        "back": ["A","C","D"]
+    },
+    {
+        "front": "What main aspects does the developer have to configure for a sap.viz.ui5.controls.VizFrame control?",
+        "back": "Dataset,DimensionDefintion,MeasureDefinition,Feed"
+    },
+    {
+        "front": "Which of the following should you avoid with regard to the golden rule 'Every SAP Fiori app must run as a web app'?",
+        "options": {"A": "Absolute URLs generated in front of back-end", "B": "Using SAPUI5", "C": "Hard dependencies between apps", "D": "Calling UI2 services directly instead of using APIs", "E": "Use of platform-specific functionality without availability check"},
+        "back": ["A", "C", "D","E"]
+    },
+    {
+        "front": "What areas are mandatory in the tile layout?",
+        "options": {"A": "Subtitle", "B": "Header Area", "C": "Content Area", "D": "Status Area", "E": "KPI Area"},
+        "back": ["B","C"]
+    },
+    {
+        "front": "Which of the following components are part of the SAP Fiori Launchpad?",
+        "options": {"A": "Shell Services", "B": "UI2 services", "C": "Shell container", "D": "Runtime container", "E": "Runtime configuration"},
+        "back": ["A","C","E"]
+    },
+    {
+        "front": "Which of the following make up the configuration of a tile for launching an SAP Fiori app of type SAPUI5 in the SAP Fiori launchpad designer?",
+        "options": {"A": "Semantic Object", "B": "Launchpad creation via LDP_CUST", "C": "Target mapping", "D": "Tile configuration", "E": "Tile implementation"},
+        "back": ["A","C","D"]
+    },
+    {
+        "front": "Which of the following layouts, are described in version 1.48 of the Guidelines?",
+        "options": {"A": "Dynamic Page", "B": "Full-screen", "C": "Split-Screen", "D": "Flexible Column Layout", "E": "MobileDeviceLayout"},
+        "back": ["A","D"]
+    },
+    {
+        "front": "When should you not use the dynamic page layout?",
+        "back": "You are planning to use SAP fiori elements, such as the list report, analytical list page, overview page, or object page, which already incorporates the dynamic page layout. You want to implement an initial page or object page floor plan these floor plans already incorporate snapping header and footer toolbar features, the behavior is comparable to the dynamic page behavior, but the technical foundation is different. You only need to display a small amount of information, in this case use a dialog instead, if you cannot avoid using the dynamic page layout, use letterboxing to mitigate the issue."
+    },
+    {
+        "front": "How many columns are supported by the flexible column layout?",
+        "back": "4"
+    },
+    {
+        "front": "When do you have to implement the SAP Fiori floorplan initial page?",
+        "back": "The initial page floorplan is used when the user needs to navigate to a single object"
+    },
+    {
+        "front": "When do you not use the overview page floorplan?",
+        "options": {"A": "A high-level or birds-eye view of an application content is sufficient", "B": "You want to display a collection of items and process them or delegate them to someone else", "C": "You want to show information about one object only. In this case, use the object page instead.", "D": "You just represent one application and less than three cards"},
+        "back": ["A","C","D"]
+    },
+    {
+        "front": "What are the main characteristics of a search field in SAP Fiori element-based applications?",
+        "options": {"A": "No value help dialog", "B": "Supports fuzzy search", "C": "Provides multiple search fields", "D": "Finds a keyword in multiply fields"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "What annotation is used to show fields of the projection list in general information section?",
+        "back": "@UI.identification"
+    },
+    {
+        "front": "What attribute is assigned to the @UI.fieldGroup to add an identifier?",
+        "back": "qualifier"
+    },
+    {
+        "front": "What goals are achieved by a Lean Development Infrastructure?",
+        "options": {"A": "Allows for faster innovation through independently released and serial versions of components", "B": "Either automates or provides self-service response", "C": "Used to increase the development effort", "D":"Used for ABAP development with Eclipse Oxygen"},
+        "back": ["A","B"]
+    }
+]

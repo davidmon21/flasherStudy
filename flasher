@@ -1,0 +1,90 @@
+#!/usr/bin/env ruby
+require 'optparse'
+require 'json'
+
+
+$home = Dir.home
+
+$flasherStore = File.join($home,".flasher")
+Dir.mkdir $flasherStore unless File.exists? $flasherStore
+$globalWrongFile = File.join($flasherStore, "wrong.json")
+$globalRightFile = File.join($flasherStore, "right.json")
+options = {flashfile: nil }
+
+opts = OptionParser.new do |opts|
+  opts.banner = "Usage: #{$0} [options]"
+
+  opts.on("-f", "--flashcards jsonfile",
+          "program mode") do |flashfile|
+    options[:flashfile] = flashfile
+    cardFile = File.basename(flashfile,'.json')
+    $wrongFile = File.join($flasherStore, cardFile+".wrong.json")
+    $rightFile = File.join($flasherStore, cardFile+".right.json")
+  end
+  opts.on("-c", "--cards cards", "selected cards") do |cards|
+    $wrongFile = File.join($flasherStore, cards+".wrong.json")
+    $rightFile = File.join($flasherStore, cards+".right.json")
+  end
+  opts.on("-r", "--review") do 
+    options[:flashfile] = $rightFile
+  end
+  opts.on("-g", "--global", "global flash cards") do
+    $wrongFile = $globalWrongFile
+    $rightFile = $globalRightFile
+  end
+end.parse!
+
+if File.exists? $rightFile and options[:flashfile] != $rightFile
+    right = JSON.parse(File.read($rightFile)).shuffle
+else
+    right = []
+end
+
+if (File.exists? $globalRightFile and options[:flashfile] != $globalRightFile) and $globalRightFile != $rightFile
+    globalRight = JSON.parse(File.read($globalRightFile)).shuffle
+else
+    globalRight = []
+end
+
+if File.exist? $wrongFile
+    wrong = JSON.parse(File.read($wrongFile)).shuffle
+else 
+    wrong = []
+end
+
+if File.exist? $globalWrongFile and $globalWrongFile != $wrongFile
+    globalWrong = JSON.parse(File.read($globalWrongFile)).shuffle
+else 
+    globalWrong = []
+end
+
+if options[:flashfile] != nil
+    flashcards = JSON.parse(File.read(options[:flashfile])).shuffle
+    if options[:flashfile] == $rightFile
+        right = []
+    end
+else
+    flashcards = wrong.shuffle
+    wrong = []
+end
+
+for card in flashcards do
+    puts card["front"]
+    puts card["options"] if card.key? "options"
+    gets.chomp
+    puts card["back"]
+    if gets.chomp.downcase == "r"
+        right.append(card)
+        globalRight.append(card) if $globalRightFile != $rightFile
+    else 
+        wrong.append(card)
+        globalWrong.append(card) if $globalWrongFile != $wrongFile
+    end 
+    system "clear"
+end
+
+File.write($rightFile, JSON.dump(right), mode: "w")
+File.write($wrongFile, JSON.dump(wrong), mode: "w")
+
+File.write($globalRightFile, JSON.dump(globalRight), mode: "w") if $globalRightFile != $rightFile
+File.write($globalWrongFile, JSON.dump(globalWrong), mode: "w") if $globalWrongFile != $wrongFile

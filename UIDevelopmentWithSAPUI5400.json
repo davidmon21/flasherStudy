@@ -1,0 +1,26 @@
+[
+    {
+        "front": "Which of the following SAP Key UI technologies are currently recommended by SAP?",
+        "options": {"A": "Web Dynpro Java", "B": "Web Dynpro ABAP with Screen Personas", "C": "Classical Screens with Screen Personas", "D": "Java Dynpro", "E": "SAPUI5"},
+        "back": ["B","C","E"]
+    },
+    {
+        "front": "Which of the following parameters must you provide when you create an initial Cloud Connector configuration?",
+        "options": {"A": "Region","B": "Display Name", "C": "Subaccount", "D": "Password", "E": "Location ID", "F": "Description"},
+        "back": ["A","C","D"]
+    },
+    {
+        "front": "Which of the following features can be used to describe a module?",
+        "options": {"A": "Name", "B": "Association", "C": "Definition", "D": "Scope", "E": "Dependencies"},
+        "back": ["A","C","E"]
+    },
+    {
+        "front": "Which of the following lifecycle hook methods can be implemented by the developer in a view controller?",
+        "options": {"A": "onInit", "B": "onRender","C": "onAfterRendering", "D": "onExit", "E": "onBeforeRendering"},
+        "back": ["A","C","D","E"]
+    },
+    {
+        "front": "Which type of UI control is used to embed a component into a component consumer?",
+        "back": "sap.ui.core.ComponentContainer"
+    }
+]

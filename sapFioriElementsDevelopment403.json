@@ -1,0 +1,79 @@
+[
+    {
+        "front": "What are the current SAP UI Tools?",
+        "options": {"A": "SAPUI5 Application Development Tools", "B": "SAP Screen Personas", "C": "SAP Netweaver Portal", "D": "Flexible UI Designer", "E": "SAP Netweaver Gateway"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "What are the limitations of publishing CDS as OData service by adding a @OData.publish:true?",
+        "options": {"A": "Cannot expose associations", "B": "Cannot change name of entity sets", "C": "Only 1 level is taken into consideration when exposing associations", "D": "No customized ABAP code in SAP Gateway"},
+        "back": ["B","C","D"]
+    },
+    {
+        "front": "In which cases, is local annotation better than a CDS annotation?",
+        "options": {"A": "UI with data intensive", "B": "Annotation is for 1 field", "C": "Complex UI relevant annotations", "D": "You want to use annotations which are not supported by your current ABAP version."},
+        "back": ["C","D"]
+    },
+    {
+        "front": "For a list report, which annotation is used to describe the name of business entity displayed on the report?",
+        "back": "@UI.headerInfo.typeNamePlural"
+    },
+    {
+        "front": "What is the use of the annotation @UI.hidden",
+        "back": "Prevent a column selected by user when customizing table settings"
+    },
+    {
+        "front": "Which of following description about search field is NOT true?",
+        "options": {"A": "The Search field is searching on more than one data field.", "B": "There is only 1 search field per list report", "C": "Search field searches for only 1 data field", "D": "Search field support fuzzy search"},
+        "back": ["C"]
+    },
+    {
+        "front": "Choose available options for creating a value help for a selection field.",
+        "options": {"A": "By adding a foreign key annotation", "B": "By adding a value help annotation", "C": "If the domain which associates to the field, has a fixed value, the value help will be generated automatically", "D": "By adding annotations to list all possible in source code of CDS"},
+        "back": ["A","B"]
+    },
+    {
+        "front": "How do you set a field as the title for a business entity?",
+        "back": "Add @UI.headerInfo.title.value for the CDS view and reference it to the field"
+    },
+    {
+        "front": "The CDS annotation @UI.facet is used to",
+        "options": {"A": "Create a Header Facet", "B": "Create a collection facet, which is displayed section", "C": "Create a reference under collection facet", "D": "Create content, like field groups, or charts for a Facet"},
+        "back": ["A","B","C"]
+    },
+    {
+        "front": "Which of the following properties are relevant to the type of facet?",
+        "options": {"A": "purpose","B": "targetQualifier", "C": "parentId", "D": "type"},
+        "back": ["A","D"]
+    },
+    {
+        "front": "If your backend system is based on ABAP 7.50, which are available ways of using facets?",
+        "options": {"A": "Declare both: field groups and facets in CDS View", "B": "Declare both: field group and facet as local annotation using BAS", "C": "Declare field group in CDS View, declare facets as local annotation using BAS", "D": "It is not possible to use facets in ABAP 7.50"},
+        "back": ["B","C"]
+    },
+    {
+        "front": "What can you do by editing manifest.json?",
+        "options": {"A": "Disable object page", "B": "Add object page as sub page under an object page", "C": "Define facets on Object page", "D": "Disable List report"},
+        "back": ["A", "B"]
+    },
+    {
+        "front": "What steps are used to display a field as a rating indicator?",
+        "options": {"A": "Set type of line item as #AS_DATAPOINT", "B": "Add a @UI.datapoint to the field and set visualization to #RATING", "C": "Add a @UI.chart annotation to the field and set visualization to #RATING", "D": "Set the visualization of line item to #RATING"},
+        "back": ["A","B"]
+    },
+    {
+        "front": "What are the differences between analytical entity set and normal entity set from an OData consumer perspective?",
+        "options": {"A": "The analytical entity set, generates a new field for primary key", "B": "The analytical entity set, returns all data, needed to analyze the client", "C": "The analytical entity set, returns summarized results according to the $select parameter.", "D": "Analyzes the use of the database and runs faster when SAP HANA is used as a database compared to a normal entity set"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "Which of the following types are types of cards in an Overview Page?",
+        "options": {"A": "List cards", "B": "Link List cards","C": "Analytical cards", "D": "Table cards","E": "Stack cards"},
+        "back": ["A","B","C","D","E"]
+    },
+    {
+        "front": "Which areas are part of an Analytic List Page?",
+        "options": {"A": "Title Area", "B": "Visual Filters", "C": "Selection Fields", "D": "Content Area"},
+        "back": ["A","B","D"]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "front": "Which platforms support the integration of SAP Fiori?",
+        "back": "SAP Enterprise Portal, SAP Cloud Platform Portal, SAP Cloud Platform Mobile Services"
+    },
+    {
+        "front": "Which personalization elements can be assigned to user roles",
+        "back": "SAP Fiori Group,SAP Fiori Catalog"
+    },
+    {
+        "front": "Which service areas are provided by the SAP HANA platform",
+        "back": "Application, Integration, Processing, Database"
+    },
+    {
+        "front": "Which areas were re-imagined in SAP S/4HANA",
+        "back": "User Experience, Business processes, System Configuration, Database models"
+    },
+    {
+        "front": "How can you create a SAP Gateway service based on a CDS View",
+        "back": "OData.publish, Data Source Reference"
+    },
+    {
+        "front": "What has to be created by a developer for an OData Service in RAP",
+        "back": "Service Binding, Service Definition"
+    },
+    {
+        "front": "For intent-based navigation, what does an intent consist of?",
+        "back": "Semantic Object, Action"
+    },
+    {
+        "front": "What can be used as target in a target mapping?",
+        "back": "Web Dynpro application, Generic URL, ABAP Transaction, SAPUI5 Application"
+    },
+    {
+        "front": "What is needed to define a target mapping for a Web Dynpro ABAP application?",
+        "back": "System alias, Web Dynpro application, Web Dynpro configuration"
+    },
+    {
+        "front": "How can you enable adaptation at runtime for SAP Fiori apps?",
+        "back": "Target mapping to runtime authoring plugin, User role SAP_UI_FLEX_KEY_USER, SAP Fiori Catalog /UIF/SAP_RTA_PLUGIN"
+    },
+    {
+        "front": "Which terms are correct when talking about extensibility for SAP applications in a front-end server?",
+        "back": "SAPUI5 Adaptation/Extension, SAP Fiori Elements Adaptation"
+    },
+    {
+        "front": "What does a KPI consist of?",
+        "back": "Evaluation, Drill-down, Tile"
+    }
+]

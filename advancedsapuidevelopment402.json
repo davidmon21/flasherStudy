@@ -1,0 +1,66 @@
+[
+    {
+        "front": "What are the current SAP UI tools?",
+        "back": "SAPUI5 to implement SAP Fiori Applications, SAP Screen Personas to reduce the complexity of existing Dynpro and Web Dynpro ABAP Applications, Flexible UI Designer"
+    },
+    {
+        "front": "Which of the following are best practices when developing a SAPUI5 app?",
+        "options": { "A": "Descrbe your app using a set of metadata", "B":"Use the Synchronous Model Definition Syntax", "C": "Minimize the code in the index.html file", "D": "Make use of patterns", "E": "Use asynchronous model definition in your javascript code"},
+        "back": ["A","C","D","E"]
+    },
+    {
+        "front": "Which control is used in the index.html file to support letterboxing if required?",
+        "back": "sap.m.Shell"
+    },
+    {
+        "front": "From which control does the sap.m.App control inherit navigation capabilities?",
+        "back": "sap.m.NavContainer"
+    },
+    {
+        "front": "When is the use of a master-detail pattern not recommended?",
+        "back": "You need to offer complex filters for the master list of items, When you want to display different facets of the same object data or both"
+    },
+    {
+        "front": "Which of the following aspects are true for SAPUI5 UI element",
+        "options": {"A": "A UI element has an API", "B": "A UI element does not have a renderer", "C": "A UI element has a renderer", "D": "A UI element can have events"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "Which of the following statements are true with regard to OPA5?",
+        "options": {"A": "Can be used for user interaction tests", "B": "Can be used for SAPUI5 integration tests", "C": "Is a view controller test framework", "D": "Provides the possibility to test navigation"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "What method must be implemented on the back end to support deep inserts?",
+        "back": "CREATE_DEEP_ENTITY"
+    },
+    {
+        "front": "Which of the following describe benefits of SAP Fiori elements?",
+        "options": {"A": "Consistent UI Design", "B": "Full control of the generated code at design time", "C": "Less support effort", "D": "Flexibility and freedom"},
+        "back": ["A","C"]
+    },
+    {
+        "front": "Which of the following SAP Fiori elements based UIs are currently available?",
+        "options": {"A": "Wizard Form", "B": "List Report", "C": "Master-Detail", "D": "Overview Pages", "E": "Object Page"},
+        "back": ["B","D","E"]
+    },
+    {
+        "front": "What types of extension/replacements are supported by SAPUI5?",
+        "back": "View replacement, View modification, Replace service, Implement UI Controller Hooks"
+    },
+    {
+        "front": "Which of the following are the main states of a file in GIT?",
+        "options": {"A": "Commited","B": "Changed", "C": "Released", "D": "Modified"},
+        "back": ["A", "B","D"]
+    },
+    {
+        "front": "In which state are the files in GIT when a remote repository is cloned?",
+        "options": {"A": "Staged and unmodified", "B": "Tracked and unmodified", "C": "Tracked and staged", "D": "Modified and tracked"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "Which of the following statements are true about the merge functionality in GIT?",
+        "options": {"A": "A merge deletes the content of a branch", "B": "Allows the merging of two local branches into one local", "C": "Allows integration of a branch into another branch"},
+        "back": ["C"]
+    }
+]
