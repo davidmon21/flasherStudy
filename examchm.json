@@ -1,0 +1,118 @@
+[
+    {
+        "front": "How are the energy and size of an ns atomic orbital affected by a decrease in n, where n is the principal quantum number?",
+        "back": "energy decreases, size decreases"
+    },
+    {
+        "front": "Consider the following possible combinations, each of which is a real material with well understood properties: CuNi, NO and GeTe. One of these combinations is a molecular structure, one is a semiconductor and one is a metal alloy, which is a mixture of two or more metals that has different properties then either metal alone. Which of these three is the semiconductor and which one is molecular?",
+        "back": "GeTe is a semiconductor and NO is molecular, molecular size right to left increase top to bottom increase just a btw"
+    },
+    {
+        "front": "It is the balance between thermal energy and intermolecular forces that determines the state of matter of any substance at room temperature. How does thermal energy increase as temperature is doubled?",
+        "back": "Thermal energy increases by a factor of two, Thermal energy = R*T"
+    },
+    {
+        "front": "the gas constant is called by the letter",
+        "back": "R"
+    },
+    {
+        "front": "Tetracyanoquinodimethane (B) has a higher melting point than Tetracyanoethylene (A). What are the intermolecular forces primarily responsible for this difference?",
+        "back": "London Dispersion forces Structure B is larger, and dispersion forces are strongly size dependent. Stronger dispersion forces are likely to be the reason for the higher melting point for B. When present, hydrogen bonding tends to be the strongest intermolecular force, but there is no hydrogen bonding here (no OH or N-H bonds). The largest bond dipoles for both molecules are associated with the C-N triple bonds, but both have the same number of these bind dipoles."
+    },
+    {
+        "front": "Which intermolecular forces increase rapidly with increasing molecular size?",
+        "back": "London Dispersion Forces"
+    },
+    {
+        "front": "Given the list of options, select the correct answer to this question: What are the two most important factors that determine which state of matter water is in at any temperature?",
+        "options": {"A": "Molecular weight and thermal energy", "B": "Intermolecular forces and molecular weight", "C": "Thermal energy and molecular weight", "D": "Intermolecular forces and thermal energy"},
+        "back": ["D: Intermolecular forces and thermal energy"]
+    },
+    {
+        "front": "Which of the following statements is true?",
+        "options": {"A":"All spontaneous reactions have a negative enthalpy change.", "B":"All spontaneous reactions have a positive entropy change.", "C":"All spontaneous reactions have a negative free energy change.", "D": "All spontaneous reactions have a negative entropy change."},
+        "back": ["C"]
+    },
+    {
+        "front": "Which of the following reactions is most reactant-favored at equilibrium, i.e. produces the most reactants relative to products at equilibrium?",
+        "options": { "A":"Reaction 1: Kc = 1e-4", "B": "Reaction 2: Kc = 0.005", "C": "Reaction 3: Kc = 1e4", "D":"Reaction 4: Kc = 10"},
+        "back": ["A"]
+    },
+    {
+        "front": "Consider the following exothermic reaction at a state of equilibrium: C(s) + O2(g) ⇌ CO2(g). Which of the following changes will cause value of the equilibrium constant, Kc, to change?",
+        "options":{"A":"Increasing the container volume", "B": "Increasing the temperature", "C": "Removing O2 gas", "D": "Adding carbon", "E": "Adding a catalyst" },
+        "back": ["B"]
+    },
+    {
+        "front": "A spontaneous reaction in the forward direction corresponds to Esub0",
+        "back": "> 0"
+    },
+    {
+        "front": "At equilibrium, the potential of an electrochemical cell is",
+        "back": "0"
+    },
+    {
+        "front": "Consider an electrochemical cell under standard state conditions based on the reaction: Pb2+(aq) + H2 (g) → Pb (s) + 2H+(aq) Which of the following actions would cause the measured cell potential, Ecell, to be greater than E0cell?",
+        "options": {"A":"Decreasing the pressure of hydrogen gas in the hydrogen cell", "B": "Decreasing the concentration of Pb2+ in the cathode", "C": "Decreasing the pH in the anode", "D": "Increasing the pH in the anode"},
+        "back": ["D"]
+    },
+    {
+        "front": "Consider the following reactions: Fe2+ (aq) + 2e- → Fe (s); E0 = -0.45 V, Cr2+ (aq) + 2e- → Cr (s); E0 = -0.91 V which of the following statements is true?",
+        "options": {"A": "Cr is less easily oxidized than Fe. Thus it makes sense to protectively coat iron objects in chromium.", "B": "Cr is more easily oxidized than Fe. Thus it makes sense to protectively coat iron objects in chromium."},
+        "back": ["B: Cr is more easily oxidized than Fe. Thus it makes sense to protectively coat iron objects in chromium."]
+    },
+    {
+        "front": "When comparing a Galvanic (voltaic) cell with an electrolytic cell we note that the electrodes are labelled oppositely. In an electrolytic cell the anode is labelled as positive, whereas it is negative in a Galvanic cell. Why is this?",
+        "back": "The power supply removes electrons from the anode in an electrolysis cell"   
+    },
+    {
+        "front": "A lithium ion battery employs a cathode that is LiCoO2 when the battery is completely discharged. On charging, approximately 50% of the Li+ ions are extracted and migrate to the anode. Which of the following is a true statement about the chemistry of this process?",
+        "options": {"A": "The charged cathode is a material consisting of Li0.5CoO2 in which some of the Co is oxidized relative to the discharged material.", "B": "The charged cathode is a material consisting of Li0.5CoO2 in which some of the Co is reduced relative to the discharged material.", "C": "The charged cathode is a material consisting of CoO2 in which some of the Co is oxidized relative to the discharged material.", "D": "The charged cathode is a material consisting of CoO2 in which some of the Co is reduced relative to the discharged material."},
+        "back": ["A: The charged cathode is a material consisting of Li0.5CoO2 in which some of the Co is oxidized relative to the discharged material."]
+    },
+    {
+        "front": "Which of the following is a true statement about evaluation of the effectiveness of an electrocatalyst?",
+        "options": {"A": "Since current is a rate, electrocatalysts cause electrochemical reactions to occur with higher current density (current per unit electrode area).", "B": "Overpotential is not used to define the quality of electrocatalysts.", "C": "Current in an electrocatalytic reaction does not depend on the applied potential.", "D": "Selectivity is not an important metric for electrocatalysts."},
+        "back": ["A: Since current is a rate, electrocatalysts cause electrochemical reactions to occur with higher current density (current per unit electrode area)."]
+    },
+    {
+        "front": "What are the strongest intermolecular forces within the individual chains and between the chains that are primarily responsible for the strength and rigidity of objects that are primarily composed of cellulose?",
+        "back": "Hydrogen-Bonding"
+    },
+    {
+        "front": "Which of the following best describes germanium doped with antimony?   Intrinsic semiconductor, p-type semiconductor, n-type semiconductor?",
+        "back": "n-type"
+    },
+    {
+        "front": "Which solid would you expect to have the largest band gap?",
+        "options": {"A": "Si", "B": "Ge", "C": "Sn"},
+        "back": ["A: Si"]
+    },
+    {
+        "front": "Shown in the image is the photoluminescence spectrum of an OLED emitting molecule that is useful in the red region of the visible spectrum. In what way would you expect the energy of the electroluminescence emission of the same molecule under the same conditions to be different from the photoluminescence spectrum shown in the image?",
+        "options": {"A": "Electroluminescence would occur at somewhat lower energies.", "B": "Electroluminescence would occur at about the same energies.", "C": "Electroluminescence would occur at somewhat higher energies."},
+        "back": ["B: Electroluminescence would occur at about the same energies"]
+    },
+    {
+        "front": "Hydrogen peroxide (H2O2) is decomposed in a water solution in a beaker to form oxygen (O2) and more water (H2O). At the end of the reaction the temperature of the water has increased. Eventually this extra heat, 20 kJ, is released from the beaker as the solution cools to the same temperature as the surroundings. What has happened to q and ΔU by the time the cooling has ended?",
+        "back": "q=-20kj and Delta U = -20kj"
+    },
+    {
+        "front": "the gas constant is called by the letter",
+        "back": "R"
+    },
+    {
+        "front": "Burning fuel below a water sample increases the temperature of the water as a result of heat energy flow into the water (+q) and heat energy flow out of the fuel system, -q. The internal energy of the water, U, increases as a consequence of which of the following?",
+        "options": {"A": "U increases but neither kinetic energy, K, or potential energy, P, increase.", "B": "U increases due to an increase in kinetic energy, K.", "C": "U increases due to an increase in potential energy, P.", "D": "U increases due to an increase in both kinetic energy, K, and potential energy, P."},
+        "back": ["B: U increases due to an increase in kinetic energy, K."]
+    },
+    {
+        "front": " Delta U: The piston moves in to compress the fuel mixture in the cylinder.",
+        "back": "Delta U positive, q 0, w positive"
+    },
+    {
+        "front": "Which of the following statements is true?",
+        "options": { "A":"If E0 for a reaction is greater than zero, then Keq = 0.", "B": "If E0 for a reaction is greater than zero, then Keq = 1.", "C": "If E0 for a reaction is greater than zero, then Keq > 1.", "D": "If E0 for a reaction is greater than zero, then Keq < 1."},
+        "back": ["C: If E0 for a reaction is greater than zero, then Keq > 1."]
+    }
+]

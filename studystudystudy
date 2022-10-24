@@ -1,0 +1,338 @@
+which elements of sap fiori can be assigned to business roles?
+spaces , business catalog groups, business catalogs 
+
+how can you activate an extension for the sap fiori launchpad (FLP)?
+Target Mapping(/UI2/FLPD_CUST)
+Customer settings(/UI2/FLP_CUS_CONF)
+
+What are the current UI Technologies of SAP?
+SAPUI5
+Web Dynpro ABAP/ Floorplan Manager
+Dynpro
+
+AMD(Asynchronous Model Definition)
+
+sap.m.shell handles visual adaptation 
+
+why does it make sense to use the navigation API of SAPUI5 and concepts such as eventbus or the navcontainer functions of the base application
+Using the navigation API, it is possible to use bookmarks
+Using the navigation API, the configuration of routes and targets are clearly separated from the application implementation 
+
+
+What aspects of the runtime environment can be accessed by the device API of SAPUI5? 
+OS
+Screen Size
+Orientation Change
+Touch-Specific Features 
+
+
+You want to define a property with the name width to enhance a standard UI5 control. The property should hold the current width of the UI control. What is the best approach to defining the type of such a property?
+
+Define property width with the type sap.ui.core.CSSSize (sap.ui.core!)
+
+Which of the following aspects are true for a SAPUI5 element?
+A UI element has an API 
+A UI element does NOT NOT NOT have a renderer
+A UI element can have events
+
+Which of the following statements are true with regard to OPA5?
+Can be used for user interaction tests
+Can be used for SAPUI5 integration tests
+Provides the posibility to test navigation
+is NOT a view controller test framework
+
+
+binding context object can be used to bind to a form for example 
+
+Deep insert triggered using the create function. Developer must pass full hierarchy 
+
+configuration aggregation is used to overwrite standard behavior of a smartfield control
+
+extension points only supported in view
+
+To what namespace is the ExtensionPoint class assigned 
+sap.ui.core NOT sap.ui.core.extension derp 
+
+Using S/4HANA 1610 with ABAP 7.51, which of the following templates can you use for SAP Fiori elements
+List Report
+Object Page 
+Overview Page 
+not Analytic List Page 
+
+When creating a CDS View the SQL View name and view name for CDS must not be identical 
+
+in which cases is a local anotation better than a CDS annotation
+Complex UI relevant annotations 
+You want to use annotations which are not supported by your current ABAP version 
+(annotations is for 1 field IS NOT a correct selection )
+
+
+
+Descriptions of search fields : 
+The search field is searching on more than one data field 
+ther is only one search field per list report
+Search field support fuzzy search
+
+Not true descriptions of search fields:
+the search field searches for only one data field 
+
+What steps need to be done in manifest.json if you need to hide variant function in a list report?
+Add setting to enable smart Variant management 
+Set setting variantManagementHidden to true 
+
+The CDS annotation @UI.facet is used to create a Header Facet, create a collection facet, which is displayed as a section and create a reference under collection facet 
+NOT create content like field groups or charts for a facet 
+
+What can you do by editing manifest.json 
+Disable Object Page
+Add object pages as sub pages under an object page 
+NOT define facets on Object Page 
+NOT disable list report
+
+Chart container 3 aggregations: The content aggregation as DEFAULT aggregation, the dimensionSelector and the customIcons aggregation.
+
+A VizFrame control needs to know where the data is coming from, this is done by implementing a DataSet referencing the data source. A DimensionDefinition and a MeasureDefinition are also needed to define which data fields of the data source are used. A feed is used to declare which data source should be used as an axis for the diagram.
+
+
+What is the problem solved by the list report floorplan?
+you want to display a large collection of items and the user can take some action
+
+You are correct! The main characteristics of a search field in SAP Fiori element-based applications is that a search field does not provide value help but can find keywords in multiply fields by using one search field. ***If SAP HANA is used as an underlying database***, fuzzy search is supported.
+
+dding the annotation @UI.identification to a field of the projection list will show the field in the general information section of the object page
+
+What attribute is assigned to the @UI.fieldGroup to add an identifier?
+You are not correct. Add the property qualifier to the fieldgroup, and assign a unique identifier.
+
+Which of the following statements are true when talking about SAP Fiori?
+SAP Fiori is SAP user experience that applies modern-user centric design principles
+SAP Fiori can be personalized, is simple and runs on any device
+SAP Fiori provides a consistent and role-specific experience across all task for all lines of business
+NOT UI tecnology for implemention aplicattions for mobile devices
+NOT product for implementing sap enterprise portal components
+
+Which of the following SAP Key UI technologies are currently recommended by SAP?
+Web Dynpro with Screen Personas 
+Classical Screen with Screen Personas 
+SAPUI5 
+NOT Java Dynpro
+NOT Web Dynpro Java
+
+Correct. The Cloud Connector is used to connect the SAP Business Technology Platform with on-premise systems. The Cloud Connector is installed on-premise.
+The Cloud Connector is installed on-premise.
+The Cloud Connector is installed on-premise.
+The Cloud Connector is installed on-premise.
+
+
+Correct. All HTML custom attributes of SAPUI5 begin with the prefix data-sap-ui, where data is the common prefix of all HTML5 custom attributes, and sap-ui is the SAP-specific part.
+
+Correct. The developer can implement the onInit method to handle aspects that should be executed at controller initialization. The onExit method can be used to implement runtime aspects that should be executed when the view and the corresponding controller are discarded by the SAPUI5 runtime. The onAfterRendering and onBeforeRendering functions are implemented in the controller to influence the rendered HTML content.
+
+Correct. Since version 1.28, SAPUI5 provides CSS classes to handle various layout aspects. sapUiVisibleOnlyOnDesktop is used to adapt the visibility of an UI control.
+
+Which fragment type is not available in SAPUI5?
+JSON
+Incorrect. The fragment concept is implemented for XML, HTML, and JavaScript.
+
+Correct. Fragments are light-weight UI parts (UI sub-trees) that can be reused, and are defined similar to views, but do not have any controller or other behavior code associated with them.
+
+Which of the following are binding types supported in SAPUI5?
+Property Binding
+Aggregation Binding
+Element Binding
+Incorrect. Property binding, aggregation binding, and element binding are the supported binding types in SAPUI5. These binding types are used to bind the attributes of UI controls and elements to aspects of a data model.
+
+Correct. The parameter bundleName contains the SAPUI5 module name of the .properties file. This name is resolved to a path similar to the paths of normal SAPUI5 modules, and .properties is then appended.
+
+Correct. The URI is used to specify the path to a unique resource, such as the service document, an entity, or an entity collection.
+
+Correct. The function hasPendingChanges() checks if there are pending changes in the model created by the setProperty() method.
+
+Correct. SAPUI5 supports the implementation of faceless components that are used to hide non-UI aspects behind a component façade. For the implementation of UI aspects, UI components are supported.
+
+Correct. The sap.m.App control is one of the possible root elements of a SAPUI5 mobile app. sap.m.App inherits from sap.m.NavContainer, which provides its navigation capabilities. sap.m.App adds certain header tags to the HTML page that are considered useful for mobile apps.
+
+
+
+ODATA
+OData be aware of the Same-Origin-Policy security concept that prevents access to backend systems on different domains or sites
+
+Result: The OData service is added to the project and the following changes are made:
+
+OData service added to project:
+The application descriptor (manifest.json file) is updated: The property dataSources is added to the sap.app section, including the URI to the selected OData service.
+models section entry
+In the file xs-app.json, an additional source property is added to the routes section with the selected destination.
+
+To bind an OData service to an application, proceed as follows:
+
+In the Run Configurations view, expand the created run configuration to display the bindable dependencies.
+Click Bind to bind the desired dependency. Result: A list of all available destinations is displayed. The data sources are loaded from the destination configuration of the SAP Business Application Studio subaccount in SAP Cloud Platform Cockpit.
+From the command palette, select the desired destination to be assigned. Result: After the dependency is bound successfully, the icon for the bindable dependency turns green.
+
+
+MockServer:
+create a run configuration with test/mockServer.html as runnable file. Then bind the data source and run the project.
+right-click the file webapp/test/mockServer.html and select Open With → Preview.
+
+One OData model instance can only cover one OData service. To access multiple services, you have to create multiple OData model instances.
+The Service URL can be passed as the first parameter, or within the mParameters map to the constructor.
+
+Expand param allows app to read associated entites with their navigation propeties
+select param app define subset of properties read when requesting entity
+
+you can use custom query ops to specify input params
+
+Per the default, all property values are empty; that is, undefined. The entity set and the passed properties must exist in the metadata definition of the OData service.
+
+create entites for spec entity sest call createEntry()
+to store in backend app calls submitChanges
+reset changes call deleteCreatedEntry(oContext)
+
+HTTP ETags for optimistic concurrency control
+ETag can be passed within the parameters map for every CRUD request. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
+
+If the token is no longer valid, a new token can be fetched by calling the refreshSecurityToken()
+
+ops all have mandatory SPath param and optional mParameters
+
+create and update method require mandatory oData param passing created or changed object
+
+each op returns obj containing a function abort, can be used to abort req
+
+read triggers get, data returned success callback handler
+
+update PUT/Merge 
+PUT request, you must set the parameter defaultUpdateMethod to sap.ui.model.odata.UpdateMethod.Put when instantiating the OData model.
+update method used is defined by the global defaultUpdateMethod parameter, which is sap.ui.model.odata.UpdateMethod.Merge by default.
+
+remove delete entites - delete req 
+
+disable auto refresh of odata model : oModel.setRefreshAfterChange(false)
+
+refresh function refreshes all data within an Odata model
+data imported using manual crud req not reloaded automatically
+
+Filtering and sorting not possible if two-way changes present, could cause inconsistent data on ui ,Therefore, before you perform sorting or filtering, you must submit or reset the changes.
+You can also reset only specific entities by calling resetChanges() with an array of entity paths.
+
+The sap.ui.model.odata.v4.ODataModel is the model implementation for consuming an OData V4 service.
+
+The OData V4 model supports the following:
+
+Read access
+Updating properties of OData entities via two-way-binding
+Deleting entities
+Operation (function and action) execution
+Grouping data requests in a batch request
+Server-side sorting and filtering
+The OData V4 model is primarily designed for OData V4 services. Nevertheless, OData V2 services may be used through an adapter as well.
+
+SAPUI5 uses the concept of a "current language". This language is automatically propagated to the OData service by the OData V4 model.
+
+Smart Controls (sap.ui.comp) and Fiori Elements do not support the SAPUI5 OData V4 model in general as well as controls like TreeTable and AnalyticalTable.
+
+The property serviceUrl contains the root URL of the service to request data from. The path part of the URL must end with a forward slash according to OData V4 specification ABNF, rule "serviceRoot".
+
+SAPUI5 is a JavaScript-based library for modern web business applications that provides the following features:
+One consistent user experience for your apps
+Responsive across browsers and devices, including smartphones, tablets, and desktops
+Feature-rich UI controls for handling complex UI patterns
+***Keyboard interaction support and accessibility features
+Full translation support
+Based on open standards like JavaScript, CSS3, and HTML5
+Powerful theming support based on CSS
+Allows the inclusion and use of the popular jQuery library
+
+Views and controllers often form a 1:1 relationship, but it is also possible to have controllers without a UI. application controllers
+views without controllers also possible 
+From a technical perspective, a view is an SAPUI5 control, and can have or inherit an SAPUI5 model.
+
+SAP currently does not guarantee that newer ECMAScript standards, such as ES6/ES2015, work with SAPUI5.
+
+SAPUI5 uses a three-digit version identifier. For example, 1.48.9. These digits have the following meaning:
+
+The first digit specifies the release number (major version).
+The second digit specifies the version number (minor version).
+The third digit specifies the patch number.
+
+Maintenance versions have an extended maintenance period, which means SAP still provides patches even though a higher version is already available. This is because the SAPUI5 version is included in a release of the SAP_UI component. For example, SAPUI5 version 1.44 has an extended maintenance, because SAPUI5 version 1.44 is included in SAP_UI 7.51.
+
+view sapui5 version installed <host>/sap/public/bc/ui5_ui5/index.html
+
+A library bundles a set of controls and related types, to make them consumable by Web applications
+The core library (technically, this is the sap.ui.core library) defines a core set of types that can be used in other libraries.
+
+SAPUI5 extensibility options allow developers to do the following:
+
+Include their own JavaScript, HTML, and CSS in SAPUI5-based pages
+Include other JavaScript libraries where SAPUI5 lacks the controls or functionality
+Create composite controls from existing SAPUI5 controls
+Write new libraries and new controls
+
+SAP Web IDE for SAP HANA is the only IDE not supporting SAPUI5.
+
+SAP have provided the SAP Business Application Studio based on Theia, an open source project by Eclipse. It is t
+
+The Layout Editor is composed of a canvas, a pane on the left side that includes the Controls and Outline tab pages, and a pane on the right side that includes the Events and Properties panes.
+
+The Cloud Connector must not be used with products other than SAP Cloud Platform or SAP S/4HANA Cloud.
+
+The Cloud Connector runs as an on-premise agent in a secured network and acts as a reverse invoke proxy between the on-premise network and the SAP Cloud Platform. Due to its reverse invoke support, you do not need to configure the on-premise firewall to allow external access from the cloud to internal systems.
+
+
+Connectivity Destinations are part of the SAP Cloud Platform connectivity service.
+
+The connectivity service resolves the Destination at runtime based on the symbolic name provided. 
+
+
+
+
+
+Destination types are as follows:
+
+HTTP destination: The HTTP destination provides data communication using the HTTP protocol and is used for both Internet and on-premise connections.
+Mail destination: The Mail destination specifies an email provider for sending and retrieving emails using the SMTP, IMAP, and POP3 protocols.
+RFC destination: The RFC destination makes connections to ABAP on-premise systems using the RFC protocol with JCo as the API.
+
+The Location ID provides an advanced option when using more than one Cloud Connector for a sub-account. Beginning with Cloud Connector 2.10.0, you can connect multiple Cloud Connectors to a sub-account if their Location ID is different.
+
+n this property, you need to specify the usages you want to have with this Destination, which are as follows:
+odata_abap: For the OData functionality of the SAP Gateway (corresponds to URL path: /sap/opu/odata).
+dev_abap: For extensibility scenarios and developing or deploying to an SAPUI5 ABAP Repository (corresponds to URL path: /sap/bc/adt).
+
+o administer the Cloud Connector, you need a Web browser. To log in to the Cloud Connector, in a web browser, enter https://<hostname><port>, where hostname refers to the machine on which the Cloud Connector has been installed (if installed on your machine, enter localhost), and port is the Cloud Connector port (the default port is 8443).
+
+
+customized config deploy
+ specific configuration file path can be provided using config-path:
+
+abap-deploy --config-path=./my-custom.config.json
+Copy to clipboard
+Please refer to the documentation for details on the deployment.
+
+When using the report /UI5/UI5_REPOSITORY_LOAD, enter the name of the SAPUI5 app and specify whether you want to update, download, or delete it. You can also specify whether or not the line endings are adjusted automatically during the upload.
+
+When using the reports /UI5/UI5_REPOSITORY_LOAD_HTTP or /UI5/UI5_REPOSITORY_LOAD_HTTPN, enter the relevant parameters and specify whether or not the line endings are adjusted automatically during the upload.
+
+The SAPUI5 Repository upload using HTTP is also available using the RFC-enabled function module /UI5/UI5_REPOSITORY_LOAD_HTTP. It can be called remotely, for example, from Maven builds.
+
+For more information, see the documentation of the reports and of the function module /UI5/UI5_REPOSITORY_LOAD_HTTP.
+
+With SMP 3.0 we have included the option to integrate Fiori using Kapsel/Web Container:
+
+This allows for native device capabilities.
+Offline access, push notifications and additional security.
+Using iOS and Android with Kapsel (written in Cordova) can view documents. Android uses a back button to navigate. iOS, you have to leave Fiori App, open SAP Mobile Documents, then allow multi-use.
+
+Fiori technology components
+SAP Fiori launchpad.
+Metadata driven UIs - Smart Controls & Smart Templates.
+ABAP infrastructure components
+Draft Infrastructure for transactional Logic.
+SADL for CDS read access.
+Analytical Engine (embedded BW) for analytical CDS access.
+SAP Gateway for OData exposure.
+CDS Views (ABAP managed)
+Uniform Business Object Modelling.
+Central repository for Metadata.

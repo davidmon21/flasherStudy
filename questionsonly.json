@@ -520,7 +520,7 @@
         "back": "Prevent a column selected by user when customizing table settings."
     },
     {
-        "front": "Which of followin description about search field is NOT true",
+        "front": "Which of following description about search field is NOT true",
         "options": {"A": "The search field is searching on more than one data field", "B": "There is only one search field per list report", "C": "The search field searches for only one data field", "D": "Search field support fuzzy search"},
         "back": ["C"]
     },

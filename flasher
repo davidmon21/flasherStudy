@@ -25,7 +25,9 @@ opts = OptionParser.new do |opts|
     $wrongFile = File.join($flasherStore, cards+".wrong.json")
     $rightFile = File.join($flasherStore, cards+".right.json")
   end
-  opts.on("-r", "--review") do 
+  opts.on("-r cards", "--review") do |cards|
+    $wrongFile = File.join($flasherStore, cards+".wrong.json")
+    $rightFile = File.join($flasherStore, cards+".right.json")
     options[:flashfile] = $rightFile
   end
   opts.on("-g", "--global", "global flash cards") do
@@ -53,18 +55,18 @@ else
 end
 
 if File.exist? $globalWrongFile and $globalWrongFile != $wrongFile
-    globalWrong = JSON.parse(File.read($globalWrongFile)).shuffle
+    globalWrong = JSON.parse(File.read($globalWrongFile)).uniq.shuffle
 else 
     globalWrong = []
 end
 
-if options[:flashfile] != nil
-    flashcards = JSON.parse(File.read(options[:flashfile])).shuffle
+if options[:flashfile] != nilx
+    flashcards = JSON.parse(File.read(options[:flashfile])).uniq.shuffle
     if options[:flashfile] == $rightFile
         right = []
     end
 else
-    flashcards = wrong.shuffle
+    flashcards = wrong.uniq.shuffle
     wrong = []
 end
 
