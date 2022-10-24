@@ -1,0 +1,245 @@
+[
+    {
+        "front": "Which of the following is a true statement?",
+        "options": {"A": "The product of mass and Planck’s constant is called momentum.", "B": "The wavelength of a macroscopic object is very long and so you never notice it.", "C": "The wavelength of a macroscopic object is very short and so you never notice it.", "D": "Matter is not subject to wave-particle duality"},
+        "back": ["C"]
+    },
+    {
+        "front": "Which of the following statements are false?",
+        "options": {"A": "The product of mass and velocity is called momentum.", "B": "Matter is subject to wave-particle duality.", "C": "Electromagnetic radiation is subject to wave-particle duality.","D": "Macroscopic objects, like people, have very long wavelengths so that they do not appear to be quantum objects."},
+        "back": ["D"]
+    },
+    {
+        "front": "Which of the following statements are true?",
+        "options": {"A":"We cannot precisely define the location of an electron because it behaves like a wave.", "B": "Electrons travel around the nucleus like satellites in precisely defined orbits.", "C": "We can precisely know the position and momentum of an electron simultaneously.", "D": "Orbitals and orbits are the same idea."},
+        "back": ["A: Electrons, as quantum particles, are subject to wave-particle duality. That means they behave like waves, and their precise locations cannot be defined. This is at the heart of the Heisenberg uncertainty principle which specifies that the precise location and momentum of a quantum particle cannot be known simultaneously."]
+    },
+    {
+        "front": "Which of the following is a true statement?",
+        "options": {"A": "The structure of an atom can be adequately described by classical laws of motion.", "B": "Quantum mechanics is necessary to explain the structure of an atom and explain existing experimental evidence.", "C": "The location of a particle that behaves like a wave can be precisely defined.", "D": "None of these statements is true."},
+        "back": ["B: The laws of classical physics are not sufficient to explain the experimental properties of electrons. It was the inability to describe experimental results that led researchers in the early 20th century to develop the ideas of quantum mechanics. At present, there is no other model that sufficiently explains the behavior of electrons."]
+    },
+    {
+        "front": "Which of the following statements is false?",
+        "options": {"A": "Electrons obey the laws of quantum mechanics including Heisenberg’s uncertainty principle.", "B": "Electrons have wave behavior specified by the de Broglie relationship.", "C": "Wavefunctions define orbitals that electrons can occupy.", "D": "Wavefunctions specify the precise location of an electron."},
+        "back": ["D: Electrons are quantum particles subject to quantum rules like wave-particle duality and the de Broglie relationship. Thus their locations are defined by wavefunctions that define orbitals, not orbits. This means, in keeping with their wave properties, precise location cannot be known."]
+    },
+    {
+        "front": "Which of the following statements is false?",
+        "options": {"A": "The trajectory of an electron can be predicted.", "B": "Electrons occupy orbitals defined by wavefunctions.", "C": "Defined orbits cannot explain the experimental behavior of electrons.", "D": "None of these statements"},
+        "back": ["A: Electrons are quantum particles subject to wave-particle duality. Their orbitals are define by wavefunctions, and their trajectories, a consequence of momentum and position, cannot be precisely defined."]
+    },
+    {
+        "front": "What quantum numbers defines the energy and size of an atomic orbital?",
+        "back": "Principal Quantum number: Atomic orbitals are defined by three quantum numbers: the principal quantum number, the angular momentum quantum number, and the magnetic quantum number. Of these, the principal quantum number defines the energy and size of the atomic orbital."
+    },
+    {
+        "front": "Which of the following statements is true?",
+        "options": {"A": "The principal quantum number of an atomic orbital defines its shape.", "B": "The angular momentum quantum number of an atomic orbital defines its shape.", "C": "The magnetic quantum number of an atomic orbital defines its shape."},
+        "back": ["B: Atomic orbitals are defined by three quantum numbers: the principal quantum number, the angular momentum quantum number, and the magnetic quantum number. Of these, the angular momentum quantum number defines the shape of the atomic orbital."]
+    },
+    {
+        "front": "Which property of an atomic orbital does the magnetic quantum number define?",
+        "back": "Orientation in Space"
+    },
+    {
+        "front": "How many atomic orbitals of hydrogen have n=3 and l=2",
+        "back": "5: Atomic orbitals are defined by three quantum numbers: the principal quantum number (n), the angular momentum quantum number (l), and the magnetic quantum number (ml). For an angular momentum quantum number l, the values of ml can be all integral values between -l and l. So for l=2, the possible values of ml are -2, -1, 0, 1, and 2. Each of these corresponds to a single, possible unique atomic orbital. So there are a total of 5 possible atomic orbitals with n=3 and l=2. Note that students sometimes think that because hydrogen has only one electron, there are no orbitals with n>1. However, this is not true. All possible combinations of quantum numbers exist and define orbitals, even if those orbitals are not occupied."
+    },
+    {
+        "front": "Which pair of quantum numbers corresponds to three possible atomic orbitals?",
+        "back": "l=1, n=2"
+    },
+    {
+        "front": "Which of the following sets of quantum numbers is impossible?",
+        "options": {"A": "n=1,l=0,m(l)=0", "B": "n=2, l=1, m(l)=-1", "C": "n=2,l=2, m(l)=0", "D": "n=3,l=2,m(l)=0"},
+        "back": "C: n=2,l=2,m(l)=0"
+    },
+    {
+        "front": "How many atomic orbitals are in the shell with a principal quantum number of 4?",
+        "back": "16, sum for each combos upto 3, e.g n=4,l=0, m= 0, n=4 l=1 m=-1,0,1 ..."
+    },
+    {
+        "front": "Which of the following statements is true?",
+        "options": {"A": "A hydrogen atomic orbital with n=1, l=0 is smaller than a hydrogen atomic orbital with n=2, l=0.", "B": "A hydrogen atomic orbital with n=1, l=0 is higher in energy than a hydrogen atomic orbital with n=2, l=0.", "C": "A hydrogen atomic orbital with n=2, l=0 is higher in energy than a hydrogen atomic orbital with n=2, l=1.", "D": "The shape of a hydrogen atomic orbital with n=2, l=0 is the same as a hydrogen atomic orbital with n=2, l=1."},
+        "back": ["A: For atomic orbitals of hydrogen, the principal quantum number defines the energy and size of all atomic orbitals in that shell. Lower values of n correspond to smaller orbitals of lower energy. So an n=1 atomic orbital is small than an n=2 atomic orbital."]
+    },
+    {
+        "front": "Which of the following statements is true?",
+        "options": {"A": "There are three subshells in the n=2 shell of a hydrogen atom.", "B": "The pair of quantum numbers n=2, l=1 defines one atomic orbital.", "C": "There are three subshells in the n=3 shell of a hydrogen atom.", "D": "The pair of quantum numbers n=3, l=2 defines one atomic orbital."},
+        "back": ["C: A subshell is the collection of all atomic orbitals for an atom that have the same values of n and l. The n=3 shell has three subshells defined by l=0, 1, and 2."]
+    },
+    {
+        "front": "The energy of an electron in an atomic orbital is ___ because it is ___ in energy than a free electron.",
+        "back": "negative, lower"
+    },
+    {
+        "front": "Which of the following statements about the energy of hydrogen atomic orbitals is false?",
+        "options": {"A": "The energies of all hydrogen atomic orbitals in the same shell are the same.", "B": "The energies of all hydrogen atomic orbitals in the same subshell are the same.", "C": "Line in the hydrogen emission spectrum correspond to the energies associated with electrons moving from an orbital of higher energy to an orbital of lower energy.", "D": "None of these"},
+        "back": ["D: For hydrogen, an element with a single electron, the energies of all orbitals with the same principal quantum number, i.e. in the same shell, are equal. This is not true for elements with more than one electron."]
+    },
+    {
+        "front": "Which of the following pairs of hydrogen atomic orbitals have the same energy?",
+        "options": {"A": "2s and 3s", "B": "2s and 2p", "C": "3p and 4p", "D": "None of these pairs"},
+        "back": "B: 2s and 2p, or hydrogen, an element with a single electron, the energies of all orbitals with the same principal quantum number, i.e. in the same shell, are equal. Since the hydrogen 2s and 2p orbitals both have a principal quantum number of 2, they have the same energy as shown in this figure (both shown as blue lines).."
+    },
+    {
+        "front": "Which of the following statements about the energy of hydrogen atomic orbitals is true?",
+        "options": {"A": "The energies of electrons in the 3s and 4s orbitals are the same.", "B": "The energies of electrons in the 3s and 3d orbitals are different.", "C": "The difference in energy between the 1s and 2s orbitals is larger than the difference in energy between the 2s and 3s orbitals. moving from an orbital of higher energy to an orbital of lower energy.", "D": "None of these"},
+        "back": "C: The difference in energy between the 1s and 2s orbitals is larger than the difference in energy between the 2s and 3s orbitals. moving from an orbital of higher energy to an orbital of lower energy."
+    },
+    {
+        "front": "Shape of 1s atomic orbital",
+        "back": "Spherical, is spherically symetric: Atomic orbitals with orbital angular momentum quantum number l=0 are referred to as s atomic orbitals, and they are spherically symmetric. The number of radial nodes for an s atomic orbital, i.e. distances from the nucleus at which there is zero probability of finding electron density, is given by n-1 where n is the principal quantum number. Thus the 1s hydrogen atomic orbital does not have any radial nodes."
+    },
+    {
+        "front": "Which of the following best describes a difference between the hydrogen 1s and 2s atomic orbitals?",
+        "options": {"A": "The hydrogen 1s and 2s atomic orbitals have different shapes.", "B": "The hydrogen 1s and 2s atomic orbitals are oriented in different directions.", "C": "The hydrogen 1s atomic orbital is higher in energy than the 2s atomic orbital.", "D": "The hydrogen 1s atomic orbital does not have any radial nodes, but the hydrogen 2s atomic orbital has a radial node."},
+        "back": ["D: All s atomic orbitals are spherically shaped meaning they have no particular orientation. Furthermore, hydrogen atomic orbitals of higher principal quantum number are higher in energy. That means the 2s orbital is higher in energy than the 1s orbital. However, although the orbitals have the same boundary surface, the probability of finding an electron at a given distance from the nucleus depends on the atomic orbital as shown in this figure. The 2s orbital has a radial, i.e. a distance at which there is zero probability of finding electron density, but the 1s orbital does not."]
+    },
+    {
+        "front": "An electron in which orbital is on average the closest to the nucleus?",
+        "back": "1s"
+    },
+    {
+        "front": "An electron in a hydrogen atom is excited to an atomic orbital with principal quantum number n=2. The atom emits a photon. What is the value of n for the electron following emission?",
+        "back": "1 : Hydrogen atomic orbitals with the same principal quantum number all have the same energy. An emission is an event in which an electron moves from a higher energy orbital to a lower energy orbital. The only hydrogen atomic orbital lower in energy than those with principal quantum number 2 is the 1s. So the electron must have moved into the 1s orbital following the emission event."
+    },
+    {
+        "front": "Which of the following transitions in a hydrogen atom corresponds to the absorption of energy by an electron?",
+        "options": {"A": "n=3 -> n=1", "B": "n=2->n=2", "C": "n=1->n=3", "D": "None of these correspond to absorption of energy"},
+        "back": ["C Hydrogen atomic orbitals with the same principal quantum number all have the same energy. An absorption is an event in which an electron moves from a lower energy orbital to a higher energy orbital. The n=3 orbitals are higher in energy than the n=1 hydrogen atomic orbital. So that transition corresponds to an absorption. That means an electron must obtain energy to move from the n=1 orbital to an n=3 orbital."]
+    },
+    {
+        "front": "Which of the following increases when an electron moves from the 2s orbital of a hydrogen atom to a 3s orbital?",
+        "options": {"A": "The energy of the electron", "B": "The average distance of the electron from the nucleus", "C": "The principal quantum number of the orbital occupied by the electron", "D": "None of the above", "E": "All of the above"},
+        "back": "E: The principal quantum number of the hydrogen 2s orbital is 2 and that of the 3s orbital is 3. Both the energy and average distance of hydrogen s orbitals increase with increasing principal quantum number. So the first three statements are all correct."
+    },
+    {
+        "front": "Which orbital 1s too 4s has the most radial nodes?",
+        "back": "4s , n-1, 3 radial nodes"
+    },
+    {
+        "front": "which value l(angular quantum number) is equal to dumbell shape for atomic orbitals?",
+        "back": "p atomic orbitals, they have a value of l=1"
+    },
+    {
+        "front": "p atomic orbital variants",
+        "back": "x,y,z - refer to orientation in cartesian plane"
+    },
+    {
+        "front": "m sub l for p atomic orbitals refers to _____",
+        "back": "x.y.z positioning on cartesian plane: . That means that their principal quantum number, n, and angular momentum quantum number, l, are the same. The specific orientation in space is determined by the magnetic quantum number, ml. These orbitals differ only in orientation; so they have different values of ml."
+    },
+    {
+        "front": "Highest energy electrons based on orbital: 1s or 2p or 3s or 4p?",
+        "back": "4p A higher principal quantum number corresponds to a higher energy, this corresponds to distance as well. So the highest energy orbital in this list is the 4p since it has the highest principal quantum number. (least interaction with nucleus)"
+    },
+    {
+        "front": "How many atomic orbitals are present in subshells with l=2",
+        "back": "5, d subshell, -2,-1,0,1,2"
+    },
+    {
+        "front": "The xy subscript for d atomic orbitals refers to: ",
+        "back": "the orientation of the orbital between the x and y-axes within the xy plane."
+    },
+    {
+        "front": "What are the quantum numbers associated with the hydrogen 4d orbitals?",
+        "back": "n=4, l=2"
+    },
+    {
+        "front": "Which of the following statements is false?",
+        "options": {"A": "For a lithium atom, the 2s and 2p orbitals have different energies.", "B": "For a lithium atom, the 2s and 2p orbitals have the same energy.", "C": "For a hydrogen atom, the 2s and 2p orbitals have the same energy.", "D": "None of these statements"},
+        "back": "B: Although all atomic orbitals within the same shell have the same energy for hydrogen, this is not true when there is more than one electron in the system. Since lithium has more than one electron, the 2s and 2p orbitals, which are in different subshells, have different energies."
+    },
+    {
+        "front": "Which of the following statements is true?",
+        "options": {"A": "The 3s and 3p atomic orbitals of He+ have the same energy.", "B": "The 3s and 3p atomic orbitals of He+ have different energies.", "C": "The 3s and 3p atomic orbitals of He have the same energy.","D": "The 3s and 3p orbitals of He+ have the same energy as the 3s and 3p orbitals of hydrogen."},
+        "back": "A: For atoms with a single electron, all atomic orbitals in the same shell have the same energy. However, when more than one electron is present, the energies of atomic orbitals within the same subshell but not shell are the same. The He+ ion has only a single electron. Thus all of the orbitals in the n=3 shell of this ion have the same energy"
+    },
+    {
+        "front": "What is the correct order of the following orbitals in terms of energy for a Be atom: 1s, 3s, and 2p?",
+        "back": "1s < 2p < 3s"
+    },
+    {
+        "front": "What is the correct order of the following orbitals in terms of energy for a Be atom: 3s, 3p, and 3d?",
+        "back": "3s<3p<3d"
+    },
+    {
+        "front": "angular momentum quantum number, l. For an _ orbital, l=0. For a _ orbital, l=1. For a _ orbital, l=2. ",
+        "back": "s,p,d"
+    },
+    {
+        "front": "For more single electron and multi-electron atoms or ions, atomic orbitals in the same subshell have the same energy. It is also important to remember that each atom or ion ____ atomic orbitals, even if those orbitals are not occupied. Although the 3d orbitals of hydrogen are not ordinarily occupied, they exist.",
+        "back": "has infinitely many,"
+    },
+    {
+        "front": "The 2p orbitals of hydrogen are defined by the quantum numbers ____. That means there are three of them. Each can be occupied by two electrons for a total of __ electrons.",
+        "back": "n=2, l=1, and ml = -1, 0, or +1 & 6  "
+    },
+    {
+        "front": "How many electrons can occupy the atomic orbitals with quantum numbers n=2, l=1, ml=1?",
+        "back": "2: Specification of three quantum numbers designates a particular atomic orbital. Each atomic orbital can be occupied by a maximum of two electrons with opposite spin"
+    },
+    {
+        "front": "What is the full ground state electron configuration for potassium?",
+        "back": "1s2 2s2 2p6 3s2 3p6 4s1, The orbitals fill according to energy using the Pauli exclusion principle and the Aufbau rules. Remember that the 4s orbitals fill before the 3d, since they are lower in energy."
+    },
+    {
+        "front": "Which element has a ground state electron configuration of 1s2 2s2 2p5?",
+        "back": "flourine"
+    },
+    {
+        "front": "The ground state electron configuration of carbon is 1s2 2s2 2p2. How many unpaired electrons does carbon have in this electron configuration?",
+        "back": "2"
+    },
+    {
+       "front": "What is the condensed, ground state electron configuration of aluminum?",
+       "back": "[Ne]3s23p1" 
+    },
+    {
+        "front": "What is the condensed, ground state electron configuration for calcium?",
+        "back": "[Ar] 4s2"
+    },
+    {
+        "front": "Which element corresponds to the ground state electron configuration [He] 2s2 2p4?",
+        "back": "oxygen"
+    },
+    {
+        "front": "For nitrogen, which of  orbits contain valence electrons in the ground state electron configuration?",
+        "back": "2s,2p"
+    },
+    {
+        "front": "Which is the element in the third period with four valence electrons in its ground state electron configuration?",
+        "back": "silicon"
+    },
+    {
+        "front": "Elements in the same group of the periodic table have the same valence electron configuration.",
+        "back": "true"
+    },
+    {
+        "front": "Electron affinity is defined as the change in energy (in kJ/mole) of a neutral atom (in the gaseous phase) when an electron is added to the atom to form a negative ion. In other words, the neutral atom's likelihood of gaining an electron.",
+        "back": "Electron affinity goes from bottom to top, left to right (increasing), electron affinity is a measure of the attraction between the incoming electron and the nucleus - the stronger the attraction, the more energy is released."
+    },
+    {
+        "front": "Consider the following possible combinations, each of which is a real material with well understood properties: CuNi, NO and GeTe. One of these combinations is a molecular structure, one is a semiconductor and one is a metal alloy, which is a mixture of two or more metals that has different properties then either metal alone. Which of these three is the semiconductor and which one is molecular?",
+        "back": "GeTe is a semiconductor and NO is molecular, molecular size right to left increase top to bottom increase just a btw"
+    },
+    {
+        "front": "It is the balance between thermal energy and intermolecular forces that determines the state of matter of any substance at room temperature. How does thermal energy increase as temperature is doubled?",
+        "back": "Thermal energy increases by a factor of two, Thermal energy = R*T"
+    },
+    {
+        "front": "the gas constant is called by the letter",
+        "back": "R"
+    },
+    {
+        "front": "Burning fuel below a water sample increases the temperature of the water as a result of heat energy flow into the water (+q) and heat energy flow out of the fuel system, -q. The internal energy of the water, U, increases as a consequence of which of the following?",
+        "options": {"A": "U increases but neither kinetic energy, K, or potential energy, P, increase.", "B": "U increases due to an increase in kinetic energy, K.", "C": "U increases due to an increase in potential energy, P.", "D": "U increases due to an increase in both kinetic energy, K, and potential energy, P."},
+        "back": ["B: U increases due to an increase in kinetic energy, K."]
+    },
+    {
+        "front": " Delta U: The piston moves in to compress the fuel mixture in the cylinder.",
+        "back": "Delta U positive, q 0, w positive"
+    }
+]
