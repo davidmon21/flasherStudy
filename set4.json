@@ -1,0 +1,440 @@
+[   {
+        "front": "dependencies for custom library are defined in",
+        "back": "manifest.json, sap.ui5.dependencies"
+    },
+    {
+        "front": "find deployed UI library using transaction",
+        "back": "sicf"
+    },
+    {
+        "front": "call custom library with",
+        "back": "data-sap-ui-resourceroots in index.html or JQuery.sap.registerModulePath"
+    },
+    {
+        "front": "Agile Testing Pyramid: Unit Test",
+        "back": "Qunit, Sinon"
+    },
+    {
+        "front": "Agile Testing Pyramid: Component Test",
+        "back": "OPA, Mock Server"
+    },
+    {
+        "front": "Agile Testing Pyramid: System Tests",
+        "back": "Selenium"
+    },
+    {
+        "front": "Agile Testing Pyramid: Manual Tests",
+        "back": "Exploratory Testing"
+    },
+    {
+        "front": "Agile testing pyramid bottom to top",
+        "back": "Unit, Component, System, Manual"
+    },
+    {
+        "front": "testing: ____ is an object that you use to pass to the code under test, you can set expectations on it but cant be verified",
+        "back": "a stub"
+    },
+    {
+        "front": "testing: an object we can set expectations on and which will veryify the expected actions have indeed occured",
+        "back": "a mock"
+    },
+    {
+        "front":"testing: if you want to verify the behavior of a code under a test you use ___ with the approriate expectation and verify that. If you want to just pass a value that may need to act in a certain way, but is not the focus of this test you use a ___",
+        "back": "mock, stub"
+    },
+    {
+        "front": "A mocking framework for javascript that has the following features, provides support for spies, stubs and mocks, supplies higher-level test doubles for timers and AJAX requests, is included in SAP UI5 libraries",
+        "back": "Sinon.js"
+    },
+    {
+        "front": "Just like most unit test frameworks, Qunit follows an ____ pattern",
+        "back": "arrange-act-assert"
+    },
+    {
+        "front": "Qunit, validates true or false",
+        "back": "ok(boolean, string)"
+    },
+    {
+        "front": "QUnit defines a test",
+        "back": "test(string, function)"
+    },
+    {
+        "front": "QUnit, compares two values using double-equal",
+        "back": "equal(value1,value2,message)"
+    },
+    {
+        "front": "QUnit, compares two values based on their content, not just their identity",
+        "back": "deepEqual(value1, value2, message)"
+    },
+    {
+        "front": "QUnit: strictly compares two values using the triple-equal comparator",
+        "back": "strictEqual(value1, value2, message)"
+    },
+    {
+        "front": "___ only provide return values for method calls (indirect input) Mocks, never causes a test to fail",
+        "back": "stub"
+    },
+    {
+        "front": "mocks can be dynamically created using framework",
+        "back": "Sinon.js"
+    },
+    {
+        "front": "all test suites are collected in ____ ",
+        "back": "AllJourneys.js"
+    },
+    {
+        "front": "Test framework used for User Interaction tests, SAPUI5 Integration Tests, Navigation Tests, and DataBinding",
+        "back": "OPA5"
+    },
+    {
+        "front": "Objects provided by OPA5 tests and their place in arrange-act-assert",
+        "back": "Given=arrangements, When=actions, Then=Assertions"
+    },
+    {
+        "front": "When is the use of a master-detail pattern not recommended?",
+        "back": "You need to offer complex filters for the master list of items, When you want to display different facets of the same object data or both"
+    },
+    {
+        "front": "What message types are known to SAPUI5?",
+        "back": "Control Message, Server Message"
+    }, 
+    {
+        "front": "You want to define a property with the name width to enhance a standard UI5 control. The property should hold the current width of the UI control. What is the best approach to dfining the type of such a property?",
+        "back": "Define the property width of the type sap.ui.core.CSSSize"
+    },
+    {
+        "front": "What to do implementing your own control renderer?",
+        "back": "You must implement a class that is derived from sap.ui.core.Renderer, the implementation should use the AMD syntax and it is also necessary to assign the renderer implementation to the renderer property of your UI control implementation."
+    },
+    {
+        "front": "Which of the following aspects are true for SAPUI5 UI element",
+        "options": {"A": "A UI element has an API", "B": "A UI element does not have a renderer", "C": "A UI element has a renderer", "D": "A UI element can have events"},
+        "back": ["A","B","D"]
+    },
+    {
+        "front": "Does QUnit support SAPUI5 view tests?",
+        "back": "No, UI tests must use OPA5"
+    },
+    {
+        "front": "The file will be added by the standard SAP Fiori project templates or through the ____ -command of your SAP Business Application Studio. You can find the command in the command palette View → Find Command or CTRL+Shift+P.",
+        "back": "Consume SAP Services"
+    },
+    {
+        "front": "A good place and a common practice is to store the requested business data in a folder called _____ as a subfolder of the localService folder in the SAPUI5 project. The file name has to reflect _____ and the file type needs to be json.",
+        "back": "mockdata, the name of the entity set"
+    },
+    {
+        "front": "The most structured way using a local JSON-file is to implement a JavaScript function to the _____ file. The ______ file is located in the ____ of the SAPUI5-project.",
+        "back": "model.js, model-folder"
+    },
+    {
+        "front": "steps using mockserver",
+        "back": "reference mockserver class, prepare metadata.xml fetch from service $metadata, get json data fetch $format=json, store locally in project"
+    },
+    {
+        "front": "start application in simulation mode",
+        "back": "start with a file in test, mockServer.html, data-sap-ui-onInit"
+    },
+    {
+        "front": "OData: Defines whether to update all bindings after submitting this change operation. See set_____ If given, this overrules the model-wide ____ flag for this operation only.",
+        "back": "refreshAfterChange"
+    },
+    {
+        "front": "the ___ handles visual representation of SmartField Controls",
+        "back": "field control"
+    },
+    {
+        "front": "Available attributes for field control(SmartField Control)",
+        "back": "Enable(Toggles from display to Edit), Visible(Hides the smartField control), Mandatory(Determines whether input is required)"
+    },
+    {
+        "front": "For fields of type SmartFiield the SmartForm control automatically creates a label based on the ____",
+        "back": "OData metadata annotations"
+    },
+    {
+        "front": "A SmartForm control consist of: ",
+        "back": "groups, groups elements"
+    },
+    {
+        "front": "A collection of controls that are displayed along with a label, typically consist of exactly one control and the respective label(SmartForms)",
+        "back": "group element"
+    },
+    {
+        "front": "The SmartForm control aggregates groups and a group aggregates group elements, the group elements themselves aggregate elements of type ______",
+        "back": "sap.ui.core.Control"
+    },
+    {
+        "front": "Layout SmartForm control",
+        "back": "ResponsiveGridLayout"
+    },
+    {
+        "front": "overview page information is visualized in a ____, different __ for different types of content",
+        "back": "card format, cards"
+    },
+    {
+        "front": "Successor to the read only Factsheet is",
+        "back": "Object Page"
+    },
+    {
+        "front": "describe semantics related to data",
+        "back": "annotations"
+    },
+    {
+        "front": "UI-Annotations used in CDS-View are mapped to UI-controls and elements _____",
+        "back": "at runtime"
+    },
+    {
+        "front": "Where is the best place to store local data when using the SAP Business Application Studio",
+        "back": "localService and mockdata folder"
+    },
+    {
+        "front": "Which of the following SAP Fiori element based UIs are currently available?",
+        "options":{"A": "Wizard Form", "B": "List Report", "C": "Master-Detail", "D": "Overview Pages", "E": "Object Page" },
+        "back": ["B", "D","E"]
+    },
+    {
+        "front": "is a feature of SAPUI5 flexibility that allows key users without technical knowledge and developers to easily make UI changes in a WYSIWYG manner.",
+        "back": "UI Adaptation"
+    },
+    {
+        "front": "Extension points are only put into your ____ code",
+        "back": "view, <core:ExtensionPoint name=\"extension_ux410\""
+    },
+    {
+        "front": "Customization is based on the configuration of components. A special area of their configuration is dedicated to customization information. This configuration is located in a JavaScript file named ______",
+        "back": "Component.js"
+    },
+    {
+        "front": "The custom application becomes the ___ which launches the delivered standard application with the additional customizing configuration.",
+        "back": "start-up project"
+    },
+    {
+        "front": "App descriptor for application varient",
+        "back": "manifest.appdescr_variant"
+    },
+    {
+        "front": "in manifest, an customizing object is added under the extends object that is part of the ___",
+        "back": "sap.ui5 object"
+    },
+    {
+        "front": "onInit and onAfterRendering in the extension are called ____ onInit and onAfterRendering of the standard/original controller.",
+        "back": "after"
+    },
+    {    
+        "front": "onExit and onBeforeRendering in the extension are called ____ onExit and onBeforeRendering of the standard/original controller.",
+        "back": "before"
+    },
+    {
+        "front": "Extension points are only available for ___ code",
+        "back": "view"
+    },
+    {
+        "front": "____ are extension points in the controller code that are used to make controller extensions more stable.",
+        "back": "Hooks"
+    },
+    {
+        "front": "To what namespace is the ExtensionPoint class assigned?",
+        "back": "sap.ui.core"
+    },
+    {
+        "front": "What types of extensions/replacements are supported by SAPUI5?",
+        "back": "View Replacement/Modification, Replace Service, Implement UI Controller Hooks"
+    },
+    {
+        "front": "3 main states of a file in GIT",
+        "back": "Committed, Modified, Changed"
+    },
+    {
+        "front": "in which state are files in GIT when a remote repository is cloned",
+        "back": "Staged and modified, Tracked and unmodified, Modified and tracked, When a remote GIT repository is cloned, all of the files are in the tracked and unmodified state."
+    },
+    {
+        "front": "What is the result of a GIT Reset?",
+        "back": "Returns the project back to the previous state"
+    },
+    {
+        "front": "What is the result of a GIT Revert?",
+        "back": "Undoes a committed snapshot"
+    },
+    {
+        "front": "Which of the following statements are true about the merge functionality of GIT?",
+        "options": {"A": "A merge deletes the content of a branch", "B": "Allows the merging of two local branches into one local branch", "C": "Allows integration of a branch into another branch"},
+        "back": ["C: Allows integration of a branch into another branch"]
+    },
+    {
+        "front": "Design led development process",
+        "back": "Discover, Design, Develop, Deploy"
+    },
+    {
+        "front": "SAPUI5 compiles with ____ and can be used together with standard ___ libraries",
+        "back": "OpenAjax, JavaScript"
+    },
+    {
+        "front": "The SAPUI5 runtime is a client-side ____ rendering library with a ruch set of standard and extension controls",
+        "back": "HTML5"
+    },
+    {
+        "front": "Client-side model(s) intended for small datasets",
+        "back": "XML, JSON"
+    },
+    {
+        "front": "Server side model, sorting and filtering on client not possible",
+        "back": "OData Model"
+    },
+    {
+        "front": "Discover Phase",
+        "back": "Scope, Research, Synthesize"
+    },
+    {
+        "front": "Design Phase",
+        "back": "Ideate, Prototype, Validate"
+    },
+    {
+        "front": "Develop Phase",
+        "back": "Implement, Test, Deploy"
+    },
+    {
+        "front": "What are the current UI Technologies of SAP?",
+        "back": "SAPUI5, Web Dynpro ABAP/Floorplan Manager, Dynpro"
+    },
+    {
+        "front": "Annotations must grouped by ______. _____ associate a group of annotations to something in OData service. As most annotations are data relevant, they try to target an entity type or property.",
+        "back": "Targets"
+    },
+    {
+        "front": "Information part of term definition",
+        "back": "Term Name, Data Type, Applies To, Nullable, Annotations to the term"
+    },
+    {
+        "front": "If you have two annotations with the same term for the same target, a _____ must be added to make your annotation unique.",
+        "back": "qualifier"
+    },
+    {
+        "front": "Most terms are described by _____ type. A ______ type can have properties that are further described by _____",
+        "back": "Complex, other complex types, or OData built in types (Edm.*)"
+    },
+    {
+        "front": "Abstract type for all DataField* types, defines common properties to describe a field.",
+        "back": "DataFieldAbstract"
+    },
+    {
+        "front": "A normal data field on screen, displays values from a field of an entity type of the OData Service",
+        "back": "DataField"
+    },
+    {
+        "front": "Another annotation determines the field displayed on screen",
+        "back": "DataFieldForAnnotation"
+    },
+    {
+        "front": "Rendered as a button or link, the actual action is relevant to the value of the field",
+        "back": "DataFieldWithAction"
+    },
+    {
+        "front": "Rendered as a button or link, the action is not relevant to value of the field in contrast to DataFieldWithAction",
+        "back": "DataFieldForAction"
+    },
+    {
+        "front": "The data source of the field is a field in other entity types which can be accessed through an association",
+        "back": "DataFieldWithNavigationPath"
+    },
+    {
+        "front": "The data field is rendered as hyperlink and opens a URL when selected by the user",
+        "back": "DataFieldWithURL"
+    },
+    {
+        "front": "The data field is rendered as a hyperlink, jumps to an intent defined in SAP Fiori Launchpad, the target is relevant to value of the field",
+        "back": "DataFieldWithIntentBasedNavigation"
+    },
+    {
+        "front": "The data field is rendered as hyperlink, jumps to an intent defined in SAP Fiori Launchpad, The target is not relevant to the value of the field in contrast to DataFieldWithIntentBasedNavigation",
+        "back": "DataFieldForIntentBasedNavigation"
+    },
+    {
+        "front": "_____ controls are SAPUI5 controls which can be rendered dynamically according to annotations of an OData Service",
+        "back": "Smart"
+    },
+    {
+        "front": "____ the predecessor of SAP Fiori Elements",
+        "back": "Smart Template"
+    },
+    {
+        "front": "Main Elements of list report",
+        "back": "Application Header, Save as Tile, Smart Table, Footer Toolbar"
+    },
+    {
+        "front": "____ as replacement of ALV in SAP GUI, Lots of ABAP Queries created by SQVI and ALV based ABAP Reports can be replaced by ____",
+        "back": "List Report"
+    },
+    {
+        "front": "A major entry of _____ is to select a row in list report, so this page is combined in List Report Template.",
+        "back": "Object Page"
+    },
+    {
+        "front": "Elements of an Object Page",
+        "back": "Page Title, Object Header(Title and Subtitle, Editing Status Icon), Header Toolbar, Optional Elements: Image, Description, Buttons, Header Facets, Anchor Navigation area, Content Area, Footer Bar"
+    },
+    {
+        "front": "Provides quick access to vital business information at a glance in the form of visual, actionable cards.",
+        "back": "Overview Page"
+    },
+    {
+        "front": "Overview Page application main components",
+        "back": "Application header, Smart Filter, Cards"
+    },
+    {
+        "front": "Analytical List Page introduced in SAP S/4HANA ____ and ABAP ____",
+        "back": "1709, 7.52"
+    },
+    {
+        "front": "Lets you analyze data from different perspectives, to investigate a root cause and to act on transactional content.",
+        "back": "ALP"
+    },
+    {
+        "front": "Steps to enable application from Netweaver ABAP",
+        "back": "1. Open SAP Fiori Launchpad Designer and create a tile catalog for the application. 2. Create a target Mapping, expose application as an intent ( Semantic Object-Action ). 3. Create a tile based on the target mapping"
+    },
+    {
+        "front": "Give user permissions to access a SAP Fiori Application, authorizations needed",
+        "back": "Front End User: User must have a role which has the tile catalog in its role menu, Back End user: User must have authorization object to access the OData service and business data."
+    },
+    {
+        "front": "Steps creating SAP Fiori Elements Application",
+        "back": "1. Create an SAP Fiori elements application\n2. Choose an OData service.\n3. Create an annotation file and Writing annotation.\n4.Modify configuration file.\n5.Translate resource bundles.\n6.Deploy your SAP Fiori elements application.\n7. Configure SAP Fiori Launchpad.\n8. Authorize user to access SAP Fiori application.\n9. Log on to SAP FLP and add the tile to the SAP FLP"
+    },
+    {
+        "front": "SADL",
+        "back": "Service Adaptation Definition Language"
+    },
+    {
+        "front": "Help you publish a group of associated CDS views to an OData service",
+        "back": "SADL framework"
+    },
+    {
+        "front": "Each CDS View is an ____ and their associations are translated to OData associations",
+        "back": "Entity Set"
+    },
+    {
+        "front": "Annotation for CDS View to generated an OData service in your back-end system",
+        "back": "@Odata.Publish: true" 
+    },
+    {
+        "front": "CDS Annotations are grouped by ____. Annotations with the same ____ stay together",
+        "back": "target"
+    },
+    {
+        "front": "OData annotations do not have a fixed position. It is usually grouped by ____",
+        "back": "terms"
+    },
+    {
+        "front": "When translated to an OData annotation, the sequence of CDS annotations belonging to one term is determined by a _____",
+        "back": "position property"
+    },
+    {
+        "front": "CDS: To seperate annotation from business logic use _____ extension",
+        "back": "metadata"
+    },
+    {
+        "front": "Use SADL if",
+        "back": "Write annotation for the entire view, Write annotation for one field, Data intensive logic e.g. ValueHelp"
+    }
+]

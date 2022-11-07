@@ -1,0 +1,655 @@
+[    
+{
+    "front": "Use local annotation if",
+    "back": "Complex annotation not associated to particular field(ex. UI Facets), The annotation you want to use is not supported by current ABAP version, Backend server is not ABAP server(ex. AS Java, HANA)"
+},
+{
+    "front": "Using SAP S/4HANA 1610 with ABAP 7.51, which of the following templates can you use for SAP Fiori elements?",
+    "options": {"A": "List Report", "B": "Object Page", "C": "Overview Page", "D": "Analytic List Page"},
+    "back": ["A","B","C"]
+},
+{
+    "front": "What are the limitations of publishing CDS as OData service by adding a @OData.publish:true",
+    "back": "Cannot Change names of entity sets, Only 1 level is taken into consideration when exposing associations, No customized ABAP code in SAP Gateway"
+},
+{
+    "front": "In which cases, is a local annotation better than a CDS annotation?",
+    "back": "Complex UI relevant annotations, You want to use annotations which are not supported by your current ABAP version"
+},
+{
+    "front": "@UI.lineitem.importance- Default Value, display in all clients",
+    "back": "#HIGH"
+},
+{
+    "front": "@UI.lineitem.importance- Only display in desktop browser or tablet",
+    "back": "#MEDIUM"
+},
+{
+    "front": "@UI.lineitem.importance- Only display in desktop browser",
+    "back": "#LOW"
+},
+{
+    "front": "CDS View and Columns: use ____ to hide fields you do not want to expose to end user",
+    "back": "@UI.hidden"
+},
+{
+    "front": "To add a search field for a list report, a developer must enable it on CDS View Level by adding a ____ annotation",
+    "back": "@Search.searchable:true"
+},
+{
+    "front": "For calculated fields in value help view use _____ to set a label",
+    "back": "@EndUserText.label"
+},
+{
+    "front": "Annotate the selection field with ____",
+    "back": "@Consumption.valuehelp:'<association_name>'"
+},
+{
+    "front": "Prerequisites for SAPUI5 flexibility service",
+    "back": "Server ABAP front end and SAP NetWeaver 7.31 SP 11 or higher, Activate: /SAP/BC/UI5_UI5 & /SAP/BC/LREP, For shared variants: ABAP Autho object /UIF/FLEX authorization field /UIF/KEYU='X', Transport request with a task assigned to the user"
+},
+{
+    "front": "____ stores filter conditions for users, after filtering data a user can save the condition as a variant",
+    "back": "Selection Variant"
+},
+{
+    "front": "Presentation Variant, ____",
+    "back": "Table Variant store information about column list and order of the table"
+},
+{
+    "front": "To combine presentation and selection variant into one ____ management can be used",
+    "back": "smart variant"
+},
+{
+    "front": "To enable smart variant management in manifest.json set ____ to true",
+    "back": "in domain sap.ui.generic.app, set \"smartVariantManagement\": true"
+},
+{
+    "front": "To disable variant management edit manifest.json with: _______",
+    "back": "in sap.ui.generic.app, \"smartVariantManagement\":true, \"variantManagementHidden\":true"
+},
+{
+    "front": "Which of following description about search field is NOT true",
+    "options": {"A": "The search field is searching on more than one data field", "B": "There is only one search field per list report", "C": "The search field searches for only one data field", "D": "Search field support fuzzy search"},
+    "back": ["C"]
+},
+{
+    "front": "Avaialbe options for creating a value help for a selection field",
+    "back": "By adding a foreign key annotation, By adding a value help annotation"
+},
+{
+    "front": "What steps needs to be done in manifest.json if you need to hide variant function in a list report?",
+    "back": "Add setting to enable smart Variant Management, Set setting variantManagementHidden to True"
+},
+{
+    "front": "Object page: in body area, by default fields annotated with _____ display",
+    "back": "@UI.identification"
+},
+{
+    "front": "Object page: Indicates name of the business object",
+    "back": "@UI.headerinfo.typeName"
+},
+{
+    "front": "Object Page: Points to the ID data field",
+    "back": "@UI.headerinfo.title.value"
+},
+{
+    "front": "Object page: Like UI.LineItem, fields with this annotation displays in the General Information Section of the page",
+    "back": "@UI.identification"
+},
+{
+    "front": "Object Page: Facet displays a group of fields with a label",
+    "back": "Field Group"
+},
+{
+    "front": "Object Page: Facet displays description information from exactly one field",
+    "back": "Plain Text"
+},
+{
+    "front": "Object Page: Facet generates a hyper link, the user can access communication information(ex phon, mail, so on) by selecting the link.",
+    "back": "Communication Facet"
+},
+{
+    "front": "Object Page: Facet displays  micro chart to help the user get the most important KPI Information",
+    "back": "Smart Micro Chart Facet"
+},
+{
+    "front": "Object Page: Facet displays rating information as stars",
+    "back": "Rating Indicator Facet"
+},
+{
+    "front": "Object Page: Facet displays a key figure or status information in different color or style to help user get the meaning at a glance",
+    "back": "Data Point Facet"
+},
+{
+    "front": "Object Page: to define a plain text header facet:",
+    "back": "Define a field gorup containing only one field\nSet the field as a multiline text"
+},
+{
+    "front": "Technically a communication header facet is a _____ header facet. Difference is at least one field of the field group should reference to a ____ annotation.",
+    "back": "Field Group, vCard.Contact"
+},
+{
+    "front": "Which types are supported as header facets for an object page?",
+    "back": "Field Group Facet, Plan Text Facet, Rating Indicator Facet"
+},
+{
+    "front": "The CDS annotation @UI.facet is used to",
+    "back": "Create a Header Facet, Create a collection facet which is displayed as section, Create a reference under collection facet"
+},
+{
+    "front": "Which of the following properties are relevant to the type of facet?",
+    "back": "purpose, type"
+},
+{
+    "front": "If your back end system is based on ABAP 7.50, which are available ways of using facets?",
+    "back": "Declare both field groups and facet as local annotation using BAS, Declare field group in CDS View declare facets as local annotation using BAS"
+},
+{
+    "front": "If you want to display a list report without an object page, you can delete pages and all properties in it under _____",
+    "back": "ListReport → <Your EntitySetName>."
+},
+{
+    "front": "Under the ObjectPage node, you can add a ____ and add a subpage for each OData entity set.",
+    "back": "pages sub node"
+},
+{
+    "front": "Fiori elements options for external navigation",
+    "back": "URL, Semantic object navigation"
+},
+{
+    "front": "Options for semantic object navigation",
+    "back": "Display as a link, use of a button in toolbar"
+},
+{
+    "front": "Steps to create external navigation using a URL",
+    "back": "Create a field represent as URL, add link, set type to #WITH_URL and point to the url field using url property"
+},
+{
+    "front": "For navigation to semantic objects",
+    "back": "Add a @consumption.semanticObject before field, set UI.lineItem.type to #WITH_INTENT_BASED_NAVIGATION or #FOR_INTENT_BASED_NAVIGATION, set @UI.lineItem.semanticObjectAction"
+},
+{
+    "front": "format semantic object, action url",
+    "back": "#SemanticObject-action?info=item&infomore=anotheritem"
+},
+{
+    "front": "Criticality can be used for __",
+    "back": "data field displayed on list report and object page, and other annotations with DataField as datatype like UI.fieldGroup and UI.identification"
+},
+{
+    "front": "criticality to integer values",
+    "back": "0-Neutral, 1-Negative, 2-Critical, 3-Positive"
+},
+{
+    "front": "To prevent users from displaying criticality number directly ___",
+    "back": "field should be set to hidden"
+},
+{
+    "front": "Default colors for criticality status",
+    "back": "Neutral=Black, Negative=Red, Critical=Yellow, Positive=Green"
+},
+{
+    "front": "You can use the theme designer to change default criticality colors by adjusting the theme t/f",
+    "back": "t"
+},
+{
+    "front": "to use rating indicator or progress bar for fiori elements",
+    "back": "set @UI.lineItem(also @UI.fieldGroup, @UI.identification and other annotations that are DataField) to type #AS_DATAPOINT, then add @UI.dtaPoint annotation and set visualization property to @RATING or #PROGRESS"
+},
+{
+    "front": "By default rating indicator has ____ and progress bar is set to ____ as target, can customize those further by setting the value of _____",
+    "back": "five stars, 100, targetValue property"
+},
+{
+    "front": " A smart chart control sends an aggregate request to the back end service by sending ______ parameter",
+    "back": "$select OData"
+},
+{
+    "front": "To define an analytic entity set add a ____ annotations to fields you need to aggregate",
+    "back": "@defaultAggregation"
+},
+{
+    "front": "Another method of creating an analytic OData service is _____",
+    "back": "Analytic Query"
+},
+{
+    "front": "A ____ annotation is used to define a smart chart and is also available in local annotation",
+    "back": "@UI.Chart"
+},
+{
+    "front": "A reference facet should be created as a direct child of ____ with type ____ and reference to ____ annotation through an association",
+    "back": "@UI.facet, #CHART_REFERENCE, @UI.Chart"
+},
+{
+    "front": "BOPF",
+    "back": "Business Object Processing Framework"
+},
+{
+    "front": "one an object page you can make changes to Object like",
+    "back": "Edit, Delete, switch between display and edit mode with Edit button"
+},
+{
+    "front": "Object page with write capability: A database table is needed to store records, table must include structure _____",
+    "back": "/bobf/s_lib_admin_data"
+},
+{
+    "front": "In ____, a business object is represented as a hierarchial tree of nodes. A single node includes a set of semantically related attributes and corresponding business logic. For each node _____ type(s) of entity(ies) can be defined to describe the specific business logic part of the business object, you can generate ____ by adding annotations in the business objec CDS view.",
+    "back": "BOPF,Several, BOPF"
+},
+{
+    "front": "What steps are used to display a field as a rating indicator?",
+    "back": "Set type of line item #AS_DATAPOINT, add a @UI.datapoint to the field and set visualization to #RATING"
+},
+{
+    "front": "What are the differences between analytical entity set and normal entity set from an OData consumer perspective?",
+    "back": "Analytical Entity Set: Generates a new field for primary key, returns all data needed to analyze client, analyzes the use of the database and runs faster when SAP HANA is used as database compared to a normal entity set"
+},
+{
+    "front": "Main components of overview page (OVP)",
+    "back": "Application header, Smart filter, Cards"
+},
+{
+    "front": "Types of Cards",
+    "back": "List Card, Bar Chart List Card, Link List Card, Analytic Card, Table Card, Quick View Card, Stack Card, Custom Cards"
+},
+{
+    "front": "List cards display list of records according to config in ____ term, List Cards display up to __ fields of data in each list item.",
+    "back": "com.sap.vocabularies.UI.v1.LineItem, six"
+},
+{
+    "front": "Analytic cards let you view data in a variety of chart formats. The card is divided into two areas( ___ and ___)",
+    "back": "header, chart"
+},
+{
+    "front": "A table card displays a list of records according to configuration in _____ term. A table card displays data in a _____ layout. You can configure smart links in table cards to access quick links.",
+    "back": "com.sap.vocabularies.UI.v1.LineItem, 3-column table layout"
+},
+{
+    "front": "Stack cards, up to ____ can be displayed in the object stream",
+    "back": "20 stacked cards"
+},
+{
+    "front": "Steps to create an Overview Page",
+    "back": "1. Prepare the backend service for a global filter.\n2. Prepare the back end service for cards.\n3. Create an SAP Fiori application using the Overview Page template\n4. Add cards for the Overview page."
+},
+{
+    "front": "_____ is the recommended mode for all ALP based applications",
+    "back": "Visual filter mode"
+},
+{
+    "front": "Decimal precision, ___ only, Applications can influence via ____ connected to the visual filter",
+    "back": "0 or 1, UI.DataPoint.NumberOfFractionalDigits"
+},
+{
+    "front": "on load of ALP __ Batch calls for ___",
+    "back": "3, 1 for visual filters, 1 for table and 1 for chart"
+},
+{
+    "front": "___ extension: Developers can add extesnions during SAP Fiori elements-based apps using the Guided Development of SAP BAS and the extension API.",
+    "back": "App"
+},
+{
+    "front": "___ extensions: Customers and Partners introduce their own functionality to an existing app using Adaption project of SAP Business Application Studio to build their own upgrade-safe application variant",
+    "back": "Adaption"
+},
+{
+    "front": "Use securedExecution method whenever one of the following operations must be performed by extension coding:",
+    "back": "- An asynchronous operation\n- An operation that needs to be synchronized with other operations that are potentially triggered by the user.\n- An operation that could result in losing the data entered by the user\n- Displaying custom messages to the user\n- Changing the title of the message popup after a quick action has been performed by the system."
+},
+{
+    "front": "Use ___ to read the state of all custom fields and store that state in the object provided to enable the templates to use it for navigation.",
+    "back": "getCustomAppStateDataExtension"
+},
+{
+    "front": "Use ____ to get the custom app state object you provided in getCustomAppStateData and set the corresponding values for your custom controls, for example you call this method after returning from a navigation.",
+    "back": "restoreCustomAppStateExtension"
+},
+{
+    "front": "____ enables functions for different user groups to adapt SAPUI5 applications in a simple and modification-free way.",
+    "back": "SAPUI5 flexibility"
+},
+{
+    "front": "Minimum SAPUI5 version for adaptation projects",
+    "back": "1.71"
+},
+{
+    "front": "Adaptions added or configured in the visual editor are stored in ___ files",
+    "back": ".change"
+},
+{
+    "front": "Adaption: Use the __ tool to deploy a new application variant use as namespace parameter the namespace specified in the file _____ of your adaption project",
+    "back": "yo, manifest.appdescr_variant"
+},
+{
+    "front": "Adaption: If you want to hide the base application in general, add the URL parameter _____, with the namespace of your application variant to the target mapping of the base application.",
+    "back": "sap-appvar-id"
+},
+{
+    "front": "The accuracy and completeness with which specified users can achieve specified goals in particular environments",
+    "back": "Effectiveness"
+},
+{
+    "front": "The resources expended in relation to the accuracy and completeness of goals achieved",
+    "back": "Efficiency"
+},
+{
+    "front": "The comfort and acceptability of the work system to its users and other people affected by its use",
+    "back": "Satisfaction"
+},
+{
+    "front": "What is described as the persons perceptions and response that result from the use or anticipated use of a product, system or service?",
+    "back": "User experience"
+},
+{
+    "front": "What does effectiveness mean in the relation to the user interface?",
+    "back": "The accuracy and completeness with which specified users can achieve specified goals in specific environments"
+},
+{
+    "front": "Which of the following can be used for usability assessment?",
+    "options":{"A": "Heuristic Evaluation", "B": "User Testing", "C": "User Observation", "D": "Questionaires"},
+    "back": ["A", "B", "D"]
+},
+{
+    "front": "Design Thinking: Innovate",
+    "back": "Discover area of innovation, Design innovative solution, Develop Customer Solution"
+},
+{
+    "front": "Design Thinking: Empower",
+    "back": "UX Center of Excellence, DT/Design Methods, UI Technology Training"
+},
+{
+    "front": "Design Thinking: Realize",
+    "back": "Implement Standard Solution, Adapt Standard Solution, Optimize Existing Solution"
+},
+{
+    "front": "Design Thinking: Advise",
+    "back": "UX Strategey, UX Value Framework, UX Roadmap, UI Technology, Design Services"
+},
+{
+    "front": "_____ apps for each role into granular, relevant tasks and activities",
+    "back": "disaggregate"
+},
+{
+    "front":"5 SAP Fiori principles",
+    "back": "Role-Based, Adaptive, Simple, Coherent, Delightful"
+},
+{
+    "front": "3 App types",
+    "back": "Transactional: Task-Based Access, Analytical: Insight to Action, Fact Sheet and Contextual Navigation: Search and Explore"
+},
+{
+    "front": "Elements if User Experience Design",
+    "back": "Visual Design, Information architecture, Interaction Design, Usability, Accessibility, Human-computer interaction"
+},
+{
+    "front": "Design element that restricts content to certain width via blank space",
+    "back": "Letter Boxing"
+},
+{
+    "front": "Letter boxing became optional feature, To account for increased average screen sizes letterboxing has been increased to ____ px",
+    "back": "1280"
+},
+{
+    "front": "In compact mode the default control area of ___ is reduced to ___",
+    "back": "3 rem, 2 rem"
+},
+{
+    "front": "What different app types can be found in SAP Fiori?",
+    "back": "Conceptual, Technical"
+},
+{
+    "front": "What technical application types are defined for SAP HANA?",
+    "back": "Transactional, Fact Sheets, Analytical"
+},
+{
+    "front": "The SAP BAS is based on the ____ open source IDE, Which embarces Microsoft Visual Studio Code Experience.",
+    "back": "Eclipse Theia "
+},
+{
+    "front": "Which of the following statements are correct with respect to the SAP Business Application Studio?",
+    "options": {"A": "BAS is a development environment for SAP ABAP", "B": "BAS is a browser based development environment", "C": "BAS provides application templates as a foundation of highly efficient app development", "D": "BAS is based on an opensource IDE", "E": "BAS provides WYSIWYG tooling"},
+    "back": ["B","C","D","E"]
+},
+{
+    "front": "What is true of the SAP Business Technology Platform SAP Business Application Studio?",
+    "options": {"A": "It requires 0 installation", "B": "Provides only SAP Cloud Programming Capabilities", "C": "It is updated on a regular basis.", "D": "Does only provide one workspace for project organization"},
+    "back": ["A", "C"]
+},
+{
+    "front": "What are the tasks of the controller in the MVC implementation?",
+    "back": "Modfies the model, Modifies the view via API"
+},
+{
+    "front": "For rapid OData service development, we provide ___ and ____ programing models on top of CDS Views",
+    "back": "RAP, CAP"
+},
+{
+    "front": "The Component.js consist of two parts",
+    "back": "The new metadata section that defines a reference to the app descriptor, and the preveiously introduced init function that is called when the component is initialized."
+},
+{
+    "front": "the ____ of the component is automatically invoked by SAPUI5 when the component is instantiated.",
+    "back": "init function"
+},
+{
+    "front": "Component inherits from the base class ____ and it is obligatory to call the init function of the base class, in the init function we instantiate our ____ and ____ like we did before in the app controller",
+    "back": "sap.ui.core.UIComponent, data model and i18n model"
+},
+{
+    "front": "______ function: you can optionally override the initialization of the root view",
+    "back": "createContent"
+},
+{
+    "front": "sap.m.Page controls can be used as ____ and the aggregation is called ____",
+    "back": "pages,pages"
+},
+{
+    "front": "SAPUI5 Routing uses a ____ based navigation",
+    "back": "hash"
+},
+{
+    "front": "The navigation API provides the following functionality:",
+    "back": "- Directly triggers navigation to a navigation target with parameters\n- Registers navigation routes and listeners for fragment changes to restore a specific state."
+},
+{
+    "front": "SAPUI5 navigation features:",
+    "back": "● sap.m.routing.Router - SAPUI5 router class to load the pages and update the URL, (change and replace hash)\n● Routing configuration in the app descriptor\n● Navigation events\n● Animation between pages, (show, slide, fade, flip)"
+},
+{
+    "front": "Optimized for consuming data, also known as 'ODBC of the web'",
+    "back": "ODATA"
+},
+{
+    "front": "EDMX OData URL",
+    "back": "/$metadata"
+},
+{
+    "front": "Service Document OData URL",
+    "back": "service root url, collection of entity sets, list available tables in a service"
+},
+{
+    "front": "OData URL , entity and property",
+    "back": "/<entityset>(<key>=<value>,<key>=<value>)/<property>"
+},
+{
+    "front": "MockData Simulates back-end calls with ____.JS",
+    "back": "Sinon"
+},
+{
+    "front": "name space for charts/business data visualization, and aggregation/aggregated in",
+    "back": "sap.viz, sap.suite.ui.commons, aggregated in SAP.suite.ui.commons.ChartContainer"
+},
+{
+    "front": "___ is a viz control that manages a visualization initialization, layout, feeding, customization and interactions.",
+    "back": "sap.ui.viz.ui5.controls.VizFrame"
+},
+{
+    "front": "viz: ____ and ____ are classes to specify the binding for the x and y axis",
+    "back": "DimensionDefinition and MeasureDefinition"
+},
+{
+    "front": "VizFrame: The ____ specifies what data of the data set is shown inside the diagram.",
+    "back": "FeedItem"
+},
+{
+    "front": "the VizFrame-Object gets the binding through the ______ method",
+    "back": "setDataset"
+},
+{
+    "front": "SAPUI5 provides two different router implementations. What router class is used in SAP Fiori apps as a router or as a router base class, when you want to implement your own router?",
+    "back": "sap.m.routing.Router"
+},
+{
+    "front": "What of the following are important technologies of the ABAP programming model of SAP Fiori?",
+    "options": {"A": "SAPUI5 and SAP Fiori Elements.", "B": "IABAP Core Data Service", "C": "BAdi and RFC", "D": "SAP HANA"},
+    "back": ["A", "B", "D"]
+},
+{
+    "front": "What main aspects does the developer have to configure for a sap.viz.ui5.controls.VizFrame control?",
+    "back": "Dataset, DimensionsDefinition, MeasureDefinition, Feed"
+},
+{
+    "front": "Golden Rules of SAPUI5 Development",
+    "back": "1. SAP Fiori apps must have an approved UX design (GR-01)\n2. SAP Fiori UIs are built with SAPUI5 (GR-02)\n3. SAP Fiori UIs and OData services must be defined in different software components (GR-05)\n4. SAP Fiori apps are based on OData services (GR-03)\n5. One SAP Fiori app - one OData service (GR-04)\n6. Every SAP Fiori app is defined by a set of metadata (GR-06)\n7. No custom CSS is allowed for SAP Fiori apps (GR-07)\n8. Every SAP Fiori app must run as a web app (GR-08)\n9. Every SAP Fiori app must run in the SAP Fiori Launchpad (GR-09)\n10. Every SAP Fiori app must run on mobile devices along the native app paradigm (GR-10)"
+},
+{
+    "front": "Why is it advisable to not use a custom CSS file in your SAP UI5 applications?",
+    "back": "  B Having one central design created with the theme designer is very efficient. When something needs to be changed at the client interface, it is easier to handle."
+},
+{
+    "front": "Which of the following should you avoid with regard to the golden rule 'Every SAP Fiori app must run as a web app'",
+    "options": {"A": "Absolute URLs generated in front or back-end", "B": "Using SAPUI5", "C": "Hard dependencies between apps", "D": "Calling UI2 services directly instead of using APIs", "E": "Use of platform specific functionality without availability check"},
+    "back": ["A","C","D","E"]
+},
+{
+    "front": "Types of tiles",
+    "back": "KPI\nComparison Chart\nMini Charts like Bullet Chart, Trend Chart, Column Chart\nBasic Launch Tile\nMonitoring Tile\nSAP Jam Tile\nFeed Tile"
+},
+{
+    "front": "Which of the following components are part of the SAP Fiori Launchpad?",
+    "options": {"A": "Shell services", "B": "UI2 Services", "C": "Shell Container", "D": "Runtime Container", "E": "Runtime Configuration"},
+    "back": ["A","C","E"]
+},
+{
+    "front": "To start a configuration in SAP Fiori Launchpad Designer you need to create a transport request and assign it to a system, tcode ____",
+    "back": "SEO1"
+},
+{
+    "front": "Configuration layer for testing or other purposes",
+    "back": "Customizing(CUST)"
+},
+{
+    "front": "Configuration Layer: All Content that you want to deliver to customers must be created in the ___ Layer",
+    "back": "Workbench(CONF)"
+},
+{
+    "front": "You can use transaction ______ to start the SAP Launchpad Designer in customizing scope",
+    "back": "/UI2/FLPD_CUST"
+},
+{
+    "front": "You can also use transaction _____ to start the SAP Launchpad Designer in configuration mode",
+    "back": "/UI2/FLPD_CONF"
+},
+{
+    "front": "Run transaction ______ and create a new role, add a new role of type SAP Fiori Tile Catalog",
+    "back": "PFCG"
+},
+{
+    "front": "Dynamic page layout successor to _____ layout, provides following features",
+    "back": "full-screen,\nFully Responsive, Additional page header functionality, Page header use by all floor plans"
+},
+{
+    "front": "Layout control that displays multiple floorplans on a single page and displays up to 3 columns",
+    "back": "flexible-column layout"
+},
+{
+    "front": "Which of the following layouts, are described in version 1.48 of the Guidelines?",
+    "options": {"A": "Dynamic Page", "B": "Full-Screen", "C": "Split Screen", "D": "Flexible Column Layout","E": "MobileDeviceLayout"},
+    "back": ["A","D"]
+},
+{
+    "front": "floorplan is used when the user needs to navigate to a single object.An interaction or starting point, is a single input field that directs the user to the object they are looking for in a few steps.",
+    "back": "initial page "
+},
+{
+    "front": "Basic Draft types(Object page?)",
+    "back": "New,Edit"
+},
+{
+    "front": "Behavioural Draft types",
+    "back": "Exclusive, Shared, Collaborative"
+},
+{
+    "front": "For ____, ___ and ___ operations, the server computes a new ETag and returns it in a response header",
+    "back": "Post, Put, merge"
+},
+{
+    "front": "If a given entry has an ETag and a client attempts to modify or delete the entry without an If-Match header, the request should fail with a HTTP ___ response code",
+    "back": "412" 
+},
+{
+    "front": "Interfaces for ETag handling",
+    "back": "/IWBEP/IF_MGW_APPL_SRV_RUNTIME method GET_IS_CONDITIONAL_IMPLEMENTED, /IWBEP/IF_MGW_REQ_ENTITY_U method GET_CONDITIONAL_INFO, /IWBEP/IF_MGW_REQ_ENTITY_D method GET_CONDITIONAL_INFO"
+},
+{
+    "front": "When do you have to implement the SAP Fiori floorplan Initial page",
+    "back": "The initial page floorplan is used when the user needs to navigate to a single object."
+},
+{
+    "front": "What SAPUI5 control is used as a starting point to implement the initial page?",
+    "back": "sap.m.Input"
+},
+{
+    "front": "When do you not use the overview page floorplan?",
+    "back": "A high-level or birds-eye view of an application content is sufficient. You want to show information about one object only, in this case use the object page instead. You just represent one application and less than three cards."
+},
+{
+    "front": "The file settings.json in the ____ folder contains important information of the project. Here, you can also change the SAPUI5 version that should be used to start the project in the Visual Editor preview if you want to test features in a higher SAPUI5-version.",
+    "back": ".adp"
+},
+{
+    "front": "Adaptions added or configured in the visual editor are stored as ____ files.",
+    "back": ".change "
+},
+{
+    "front": "For _____ no SAPUI5-code is generated, only a .change file is created.",
+    "back": "view modifications"
+},
+{
+    "front": "In the adaption project, the customer can override the functions of the controller from the base application. Using the ______ enumeration",
+    "back": "sap.ui.core.mvc.OverrideExecution"
+},
+{
+    "front": "SAP offers two REST-based application programming models ____ and ____",
+    "back": "SAP Cloud Application Programming Model (CAP), ABAP RESTful Programming Model(RAP)"
+},
+{
+    "front": "It is possible to annotate a field as ___ , and assign the enumeration ___. This appears for each group of the presentation variant, and the overall sum appears in the projection list, at the end of the line of the annotated field.",
+    "back": "@DefaultAggregation, #SUM"
+},
+{
+    "front": " ____ annotation is an array and should contains all facet definitions.",
+    "back": "@UI.facet"
+},
+{
+    "front": "For Field Group Header Facet, add:",
+    "back": "Set purpose to #HEADER\nSet type to #FIELDGROUP_REFERENCE\nSet targetQualifier to the qualifier of corresponding field group\nSet position and label"
+},
+{
+    "front": "What are the main characteristics of a search field in SAP Fiori element-based applications?",
+    "back": "No value help dialog, Supports fuzzy search, Finda a keyword in multiply fields"
+},
+{
+    "front": "What annotation is used to show fields of the projection list in the general information section?",
+    "back": "@UI.identification"
+},
+{
+    "front": "CI and stages",
+    "back": "Continious Integration, Change -> Build"
+},
+{
+    "front": "CD and stages",
+    "back": "Continous Delivery, Test -> Release"
+}
+]

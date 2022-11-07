@@ -1,0 +1,309 @@
+[
+    {
+        "front": "Which of the following pattern sequences are the QUnit tests based on?",
+        "back": "Arrange, Act, and Assert"
+    },
+    {
+        "front": "When SAP Web IDE deploys an SAPUI5 app to the ABAP server, which type of app is it deployed as?",
+        "back": "BSP"
+    },
+    {
+        "front": "You need the server to sort and filter the data used in your customer's app. Which SAPUI5-supported data model must you use?",
+        "back": "OData"
+    },
+    {
+        "front": "To generate SAPUI5 coding that is based on prototypes, which tool do you use?",
+        "back": "SAP Web IDE/SAP BAS"
+    },
+    {
+        "front": "Which features of the SAP Web IDE help you extend a standard SAP Fiori app? (There are 2 correct answers to this question)",
+        "back": "The Extensibility Pane to extend the control, A wizard to generate the files for each extension possibility"
+    },
+    {
+        "front": "Which UI5 theme is replacing SAP Blue Crystal as the base Fiori theme?",
+        "back": "SAP Belize"
+    },
+    {
+        "front": "Which SAP Fiori application is launched by using the search functionality instead of using a tile?",
+        "back": "Factsheet"
+    },
+    {
+        "front": "In the design thinking phase of your customer project, one design is accepted as viable. What other attributes need to be valid for this design to be considered? (There are 2 correct answers to this question)",
+        "back": "Desirable, Feasible"
+    },
+    {
+        "front": "For which operations will the SAP Gateway server compute and return a new ETag in a response header?",
+        "back": "POST,PUT,MERGE"
+    },
+    {
+        "front": "Which file is referred to as the App Descriptor and what is its function?",
+        "back": "manifest.json"
+    },
+    {
+        "front": "What is the purpose of the SAP HANA Cloud connector?",
+        "back": "It connects the services of the SAP HANA Cloud Platform and on-premise system in the customer's network"
+    },
+    {
+        "front": "For which app type in SAP Fiori do you install the KPI framework?",
+        "back": "Analytical"
+    },
+    {
+        "front": "Which of the following components are part of the SAP Web IDE, hybrid app toolkit add-on?",
+        "options": {"A": "Hybrid App Project Templates, Device Configuration, Hybrid App Toolkit Connector", "B": "Hybrid Companion App, Config.json, Package.json, SAP Web IDE Plugin", "C": "SAP Web IDE Plugin, Hybrid Companion App, Hybrid App Toolkit Connector", "D": "Kapsel Plugins, SAP Web IDE Plugin, Hybrid App Toolkit Connector"},
+        "back": ["C"]
+    },
+    {
+        "front": "Why do you use the Cordova and SAP Kapsel plug-ins when using the SAP Web IDE, SAP HAT add-on? (There are 2 correct answers to this question)",
+        "back": "To Integrate device APIs, To use offline OData"
+    },
+    {
+        "front": "What happens when you use the SAP Web IDE console during a deployment? (There are 2 correct answers to this question)",
+        "options": { "A": "You can view error messages when a deployment is successful", "B": "You can view error messages when a deployment is NOT successful", "C": "You can debug the error messages in the console", "D": "You can archive the success messages in the console"},
+        "back": ["B","C"]
+    },
+    {
+        "front": "Which activities does the OData Model Editor support?",
+        "back": "Edit ODataModels, Test ODataModels, Define Odata models"
+    },
+    {
+        "front": "Which dependent plugin must you enable to include the Push plugin when you create a hybrid mobile app?",
+        "back": "Dialog Notification"
+    },
+    {
+        "front": "Which SAP Fiori personalization elements holds all of the technical information needed to start an app?",
+        "back": "Tile"
+    },
+    {
+        "front": "While testing an SAP Fiori app you discover that a button on the page delivers no response. Which of the following agile pyramid options do you use?",
+        "back": "OPA"
+    },
+    {
+        "front": "What are the basic guidelines of the Extension Point concept of SAPUI5?",
+        "options": {"A": "The parent app contains all modifications" ,"B": "The custom app is located in a separate project", "C": "The custom app remains modification free", "D": "The custom app and the parent app contain a component.js file"},
+        "back": ["B","D"]
+    },
+    {
+        "front": "Your customer asks you to add text for a new language to an app. Which file do you provide to the translator?",
+        "back": "i18n.properties"
+    },
+    {
+        "front": "23. What is the purpose of the Logon Plugin Data Vault of the SAP Fiori Client?",
+        "back": "Provide a reusable component for storing sensitive information on the device"
+    },
+    {
+        "front": "Which tile types can you use to display real-time data values read from an OData service?",
+        "back": "Dynamic App Tile, KPI Tile"
+    },
+    {
+        "front": "Your customer wants to extend an SAP Fiori app through a Controller Extension. When can a controller extension lead to a crash?",
+        "back": "If the extension code accesses parts of the original application which are changed, for example, removed, have a different type or a different ID, controller extensions can cause a crash, If the extension code makes assumptions about the application which are no longer valid after an update, controller extensions can lead to a crash,  If original code is overwritten which is required for the application to run properly, controller extensions can lead to a crash"
+    },
+    {
+        "front": "Which application types can you develop and deploy on the SAP HANA Cloud platform? (There are 3 correct answers to this question)",
+        "back": "JAVA,HTML5,Node.js,HANA XS"
+    },
+    {
+        "front": "How do you integrate SAPUI5 in a Kapsel/Hybrid app?",
+        "back": "Add the sap-mobile-hybrid.js file to the Hybrid app"
+    },
+    {
+        "front": "What does coherence refer to in the SAP Fiori design principles? ",
+        "back": "A Consistent interaction and visual design language, The same intuitive experience accross the whole enterprise"
+    },
+    {
+        "front": "32. Your customer extends an SAP Fiori app with View Replacement. Which activities do you perform?",
+        "back": "Verify that adding custom content in the extension points will not suffice, create an sapui5 view that replaces the complete view"
+    },
+    {
+        "front": "Your customer wants to enable the SAP Fiori app to be accessed in multiple languages. Which of the following activities do you perform?",
+        "back": "create a resource file for each language,html-enable the special characters in the resource file, create a resource file containing key/value pairs"
+    },
+    {
+        "front": "Which file of the SAP HAT Connector stores the WebIDEHosts URL and can be used for troubleshooting?",
+        "back": "Config.json"
+    },
+    {
+        "front": "Which elements are part of the UX?",
+        "back": "User effectiveness, User emotion, NOT User interaction, NOT User response"
+    },
+    {
+        "front": "Which model type in SAPUI5 does NOT support one-way and two-way binding from model to view?",
+        "back": "Resource Model"
+    },
+    {
+        "front": "Which of the following sequences is the correct sequence for the discover Problem Space phase in a Design Thinking workshop?",
+        "back": "Scoping, 360' Research, Synthesis"
+    },
+    {
+        "front": "You develop an SAP Fiori sales app to display sales order information from the backend system. Which of the following model types do you use?",
+        "back": "OData Model"
+    },
+    {
+        "front": "Why do you explore the Problem Space in detail during a Design Thinking workshop?",
+        "back": "To understand the user needs"
+    },
+    {
+        "front":"You need to maintain the mapping between an app URL and a destination in the SAPUI5 app. Which file do you maintain?",
+        "back": "neo-app.json"
+    },
+    {
+        "front": "In which attribute do you specify the themes for an SAP Fiori app?",
+        "bav ck": "data-sap-ui-theme"
+    },
+    {
+        "front": "What is the required content of the Component.js file of an extension project?",
+        "back": "The link to the parent app, The Customizing Section"
+    },
+    {
+        "front": "What are the limitations of OPA5 test?",
+        "back": "Screen capturing,*Testing across more than one page,Remote test execution,*End-to-end tests are not recommended with OPA due to authentication issues and fragility of test data"
+    },
+    {
+        "front": "Why does SAP Fiori use an intent-based navigation?",
+        "back": "Apps targets can be deployed separately"
+    },
+    {
+        "front": "Which deployment options do you have for SAP Fiori UIs and OData Services regarding the software components?",
+        "back": "hub/embedded,Two different deployment packages on a different from the business packages,One deployment package on the same system as the business system "
+    },
+    {
+        "front": "Which information is included in the SAPUI5 app's manifest.json file?",
+        "back": "App ID, Name and Version,Referenced data sources,SAPUI5 dependencies"
+    },
+    {
+        "front": "Your customer requires that the SAPUI5 design of all apps reference a specific and consistent look and feel. What do you create?",
+        "back": "Create a theme using the Theme Designer implementing the specific look and feel and reference this theme in the bootstrap of all apps,Create a css file using the Web IDE implementing the specific look and feel and reference this css in the bootstrap of all apps, Create a module using the Web IDE implementing the specific look and feel and reference this module in the bootstrap of all apps"
+    },
+    {
+        "front": "Which element in the SAPUI5 architecture holds the data in JSON or XML?",
+        "back": "Model"
+    },
+    {
+        "front": "51. What do you configure to import the BUILD prototype in the SAP Web IDE for development?",
+        "back": "The destination in the SAP HANA Cloud Platform"
+    },
+    {
+        "front": "Which security features does the SAP Fiori provide to restrict the access to native device capabilities?",
+        "back": "Restricted device functionality using a client policy,Bridge for non-Fiori content"
+    },
+    {
+        "front": "What are the advantages of the Sinon.JS framework?",
+        "back": "use spies, stubs, mocks, faked timers or faked XHR"
+    },
+    {
+        "front": "How can you extend an SAP Fiori app?",
+        "back": "Add customer view content in a predefined extension point,Modify the properties of the view control, Enable merging of the standard and the custom controller at runtime"
+    },
+    {
+        "front": "You are extending an SAP Fiori app. Which of the extension properties are defined in the manifest.json?",
+        "back": "sap.ui.controllerExtensions,sap.ui.viewModifications"
+    },
+    {
+        "front": "You extend an SAP Fiori app. The visibility value of a View Button control needs to be modified. Which extension point do you use",
+        "back": "View Modification"
+    },
+    {
+        "front": "Which tool do you use to deploy SAP Fiori app developments?",
+        "back": "SAP WEB IDE/SAP BAS"
+    },
+    {
+        "front": "You develop an SAPUI5 app that updates data for sales order and sales order items on the back-end system. What do you create to implement a deep insert?",
+        "back": "create a nested structure for Sales Order and Sales Order Items,Create an object structure that defines the hierarchy"
+    },
+    {
+        "front": "When do you select the custom plugins to build and package a hybrid app using the SAP HAT?",
+        "back": "During the Configure Path for Custom Plugins step of installing the SAP HAT"
+    },
+    {
+        "front": "Where are the themes saved for the SAP Fiori launchpad?",
+        "back": "In the theme repository"
+    },
+    {
+        "front": "Your customer needs an app that can perform data modifications. Which ODataModel binding-mode do you select?",
+        "back": "two way"
+    },
+    {
+        "front": " To perform a QUnit test, what do you include in a test page under your webapp folder?",
+        "back": "SAPUI5 bootstrap code"
+    },
+    {
+        "front": "You develop an SAPUI5 app that can be extended. To allow your customer notifications, you set up a hook method. What activities are required to implement a hook method?",
+        "back": "In the application, identify a strategic location within the controller code where customers may want to plug in and execute their customized code.\nIn the application, define a new function name which is reserved for the extension, document the function and any arguments the function may receive or return.\nAdd code lines in the application (see code snippet below) to check whether the function has been implemented, and, if so, to call the function. We also recommend to implement sanity checks for return values.\nThe customer can then configure a controller extension, implementing exactly this one function.\nSAPUI5 runtime merges the new controller extension into the standard controller. If customizing is enabled, the new function can be executed.\nAdd a code snippet to check if the method exists and execute it,Define a new function name ensuring it is reserved for the extension,Identify a strategic location in the controller for the customized code"
+    },
+    {
+        "front": "Which properties are part of the design phase when you develop SAP Fiori apps?",
+        "back": "Ideation, Prototyping and Validation"
+    },
+    { 
+        "front": "In the source code below, which of the following locations must reference the extension point?",
+        "back": "Component.js"
+    },
+    {
+        "front": "You need to configure a SAP Web IDE destination to extend an existing SAP Fiori app. Which configuration setting for the WebIDEUsage property is required?",
+        "back": "dev_abap"
+    },
+    {
+        "front": "In a typical SAP Fiori landscape, which server instance stores the SAP Fiori SAPUI5 application code for a transactional app?",
+        "back": "SAP Front-End Server"
+    },
+    {
+        "front": "Store your changes in local git repository",
+        "back": "commit"
+    },
+    {
+        "front": "Which technologies are used to create Hybrid apps and SAPUI5 apps?",
+        "back": "HTML5, JavaScript and CSS"
+    },
+    {
+        "front": "You need to explain the core functions of OPA5 for testing SAPUI5 apps. Which test options are offered by OPA5?",
+        "back": "User interaction tests,Navigation tests"
+    },
+    {
+        "front": "Your customer requests a special create method to enable the creation of the full OData hierarchy. Which OData service method can you use?",
+        "back": "CREATE_DEEP_ENTITY"
+    },
+    {
+        "front": "You need to consume the OData Service from the Gateway to create a new SAP Fiori app in the SAP Web IDE. What value do you configure in the WebIDEUsage property for the destination in the SAP HANA Cloud Platform?",
+        "back": "odata_abap"
+    },
+    {
+        "front": "You need to strengthen the connection security between the Web IDE and the Hybrid App Toolkit Connector. Which of the following activities do you perform?",
+        "back": "Replace the default API key"
+    },
+    {
+        "front": "You develop an SAPUI5 app and implement a FacetFilter. What events are triggered when the user interacts with the FactFilter control",
+        "back": "confirm, reset"
+    },
+    {
+        "front": "What happens if you execute an app that contains the following bootstrap file? \nscript src=\"resources/sap-ui-core.js\"\nid=\"sap-ui-bootsrap\"\ndata-sap-ui-libs=\"sap.m\"\ndata-sap-ui-xx-bindingSyntax=\"complex\"\ndata-sap-ui-resourceroots='{\"sales.reporting\":\"/\"}'",
+        "back": "The bootstrap will load and the application will run successfully but without a theme"
+    },
+    {
+        "front": "What are the Lifecycle events of an SAPUI5 view controller? (There are 2 correct answers to this question)",
+        "back": "onBeforeRendering,onExit"
+    },
+    {
+        "front": "What is true for the SAP Gateway?",
+        "back": "It is a set of ABAP add-ons to the SAP ERP system,Offers connectivity to SAP applications leveraging REST services "
+    },
+    {
+        "front": "What data sources are available in the SAP Web IDE to add a data source configuration to the manifest.json?",
+        "back": "File System,Service URL,service Catalog"
+    },
+    {
+        "front": "What visibility does a OData Model instance have when created automatically during application start",
+        "back": "ComponentScope"
+    },
+    {
+        "front": "What makes a standard UI Control a complex control",
+        "back": "Associations, Aggregations"
+    },
+    {
+        "front": "What is the name of the UI-control that acts a canvas for diagrams?",
+        "back": "VizFrame"
+    },
+    {
+        "front": "What function must be called inside a control renderer to add the control id to the DOM-tree and support eventing?",
+        "back": "writeControlData"
+    }
+]

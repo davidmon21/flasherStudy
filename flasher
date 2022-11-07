@@ -60,7 +60,7 @@ else
     globalWrong = []
 end
 
-if options[:flashfile] != nilx
+if options[:flashfile] != nil
     flashcards = JSON.parse(File.read(options[:flashfile])).uniq.shuffle
     if options[:flashfile] == $rightFile
         right = []

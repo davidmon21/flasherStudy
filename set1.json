@@ -1,0 +1,319 @@
+[
+{
+    "front": "which elements of sap fiori can be assigned to business roles?",
+    "back": "Spaces, Business Catalog Groups, Business Catalogs"
+},
+{
+    "front": "How can you activate an extension for the sap fiori launchpad(FLP)?",
+    "back": "Target Mapping(/UI2/FLPD_CUST),Customer Settings(/UI2/FLP_CUS_CONF)"
+},
+{
+    "front": "What are the current UI technologies of SAP?",
+    "back": "SAPUI5, Web Dynpro ABAP/Floorplan Manager, Dynpro"
+},
+{
+    "front": "Why does it make sense to use navigation API of SAPUI5 and concepts such as eventbus or the navcontainer functions of the base application?",
+    "back": "Using the navigation API, It is possible to use bookmarks; Using the navigation API, the configuration of routes and targets are clearly separated from the application implementation"
+},
+{
+    "front": "What aspects of the runtime environment can be accessed by the device API of SAPUI5?",
+    "back": "OS, Screen Size, Orientation Changes, Touch-Specific Features"
+},
+{
+    "front": "You want to define a property with the name width to enhance a standard UI5 control. The property should hold the current width of the UI control. What is the best approach to defining the type of such a property?",
+    "back": "Define property width with the type sap.ui.core.CSSSize"
+},
+{
+    "front": "Which of the following statements are true with regard to OPA5?",
+    "back": "Can be used for user interaction tests, Can be used for SAPUI5 integration tests, Provides the possibility to test navigation, IS NOT a view controller test framework"
+},
+{
+    "front": "To what namespace is the ExtensionPoint class assigned?",
+    "back": "sap.ui.core NOT sap.ui.core.extension derp"
+},
+{
+    "front": "Using S/4HANA 1610 with ABAP 7.51, which of the following templates can you use for SAP Fiori elements?",
+    "back": "List Report, Object Page, Overview Page, NOT ALP"
+},
+{
+    "front": "In Which use cases is a local annotation better than a CDS annotation?",
+    "back": "Complex UI relevant annotations, You want to use annotations which are not supported by your current ABAP Version, (annotations is for 1 field IS NOT a correct selection )"
+},
+{
+    "front": "Descriptions of search fields:",
+    "back": "The search field is searching on more than one data field, there is only one search field per list report, Search field support fuzzy search"
+},
+{
+    "front": "What steps need to be done in manifest.json if you need to hide variant function in a list report?",
+    "back": "Add setting to enable smart variant management"
+},
+{
+    "front": "The CDS annotation @UI.facet is used to create",
+    "back": "a Header Facet, create a collection facet, which is displayed as a section and create a reference under collection facet"
+},
+{
+    "front": "What can you do by editing manifest.json",
+    "back": "Disable object page, Add objects pages as sub pages under an object page"
+},
+{
+    "front": "Chart container 3 aggregations?",
+    "back": "Content(Default), dimensionSelector, customIcons"
+},
+{
+    "front": "What problem is solved by the list report floorplan?",
+    "back": "you want to display a large collection of items and the user can take some action"
+},
+{
+    "front": "What attribute is assigned to the @UI.fieldGroup to add an identifier?",
+    "back": "Add property qualifier to field group and assign a unique identifier"
+},
+{
+    "front": "Which of the following statements are true when talking about SAP Fiori?",
+    "back": "SAP Fiori is SAP user experience that applies modern-user centric design principles; SAP Fiori can be personalized, is simple and runs on any device; SAP Fiori provides a consistent and role-specific experience across all task for all lines of business"
+},
+{
+    "front": "Which of the following SAP Key UI technologies are currently recommended by SAP?",
+    "back": "Web Dynpro with Screen Personas, Classical Screens with Screen Personas, SAPUI5"
+},
+{
+    "front": "Fragment types SAPUI5?",
+    "back": "JS,XML,HTML"
+},
+{
+    "front": "Binding types supported in SAPUI5?",
+    "back": "Property Binding, Aggregation Binding, Element Binding"
+},
+{
+    "front": "Your customer wants to extend an SAP Fiori app through a Controller Extension. When can a controller extension lead to a crash?",
+    "back": "If the original code required to run the application is overwritten. If the extension code accesses parts of the original application that were removed."
+},
+{
+    "front": "what is an aggregation",
+    "back": "is a parent child relationship, a relationship between the text field and its label"
+
+},
+{
+    "front": "UI Annotations are stored within the ",
+    "back": "metadata extensions file"
+},
+{
+    "front": "The properties position within @UI.lineItem for list report controls",
+    "back": "the order of columns within the list report table"
+}, 
+{
+    "front": "How to make line item appear regardless of browser size",
+    "back": "Set importance to #HIGH"
+},
+{
+    "front": "Adding fields to filter bar with annotations",
+    "back": "@UI.selectionField: [{position: 10}] FieldID;"
+},
+{
+    "front": "Set entity header/table header for entity type/list report",
+    "back": "@UI: { headerInfo: {typeName: 'Travel', typeNamePlural: 'Travels' } }"
+},
+{
+    "front": "Metadata Annotation used to sort table",
+    "back": "@UI.presentationVariant.sortOrder: [{ by: 'ElementID', direction: #DESC}]"
+},
+{
+    "front": "applying sorting to list report table in Metadata annotation",
+    "back": "@UI.presentationVariant.visualizations: [ { type: #AS_LINEITEM} ]"
+},
+{
+    "front": "Define column label for a field in projection view",
+    "back": "Under projection view, in the Data definition add field @EndUserText.label: 'Name'"
+},
+{
+    "front": "What controls the source for content by reference shown in related field example in projection view - association",
+    "back": "@ObjectModel.text.element: ['Source']"
+},
+{
+    "front": "How do you cast a sub-element or model object as another name in projection view? association",
+    "back": "ex: Model _Agency: _Agency.Name as AgencyName"
+},
+{
+    "front": "If you are using a UUID-based model for CDS view a ___ is required",
+    "back": "semantic key, ObjectModel.semanticKey"
+},
+{
+    "front": "Projection views contain the fields that can be shown on the UI. How can content be accessed from an entity that is defined externally?",
+    "back": "By using an association"
+},
+{
+    "front": "add a value help by defining ____ in _____ with ___",
+    "back": "value help, projection view, @Consumption.valueHelpDefinition: [{ entity: [name: '/DATA/View', element: 'Key' ]}] "
+},
+{
+    "front": "Create drop down for element in CDS View",
+    "back": "@ObjectModel.resultSet.sizeCategory: #XS"
+},
+{
+    "front": "Discover phase of the design thinking process",
+    "back": "scoping, 360 research and synthesis"
+},
+{
+    "front": "Design phase of the design thinking process",
+    "back": "ideation, prototyping, validation"
+},
+{
+    "front": "Deliver phase of design thinking process",
+    "back": "developing, testing and deploying"
+},
+{
+    "front": "tool for prototyping web apps using SAP Fiori UI elements or imported images of user interfaces",
+    "back": "SAP Build"
+},
+{
+    "front": "Help material for sap fiori",
+    "back": "The help content for this user assistance is provided by the SAP Content Server hosted by SAP, an SAP Enable Now Manager hosted by the customer, or a mixture of both. "        
+},
+{
+    "front": "Ommit key from column description text/display",
+    "back": "In metadata extension file for lineitems add @UI.textArrangment: #TEXT_ONLY"
+},
+{
+    "front": "How do you add criticality to a field in listreport and what are the numbers to colors for criticality?",
+    "back": "Add value criticality to @UI.lineItem as criticality, 2- yellow, 3- green, 1- red, 0- unknown state "
+},
+{
+    "front": "What is the consequence if an additional field is defined within the CDS view of a draft-enabled application?",
+    "back": "The related draft table has to be recreated using the quick-fix option in the behavior definitions file"
+},
+{
+    "front": "How do you set a field as the title for a business entity/object page in listreport?",
+    "back": "Add @UI.headerInfo.title.value for the CDS view and reference it to the field"
+},
+{
+    "front": "The CDS annotation @UI.facet is used to think object pages inside listreport",
+    "back": "Create a Header Facet, Create a collection facet which is displayed as section, Create a reference under collection facet"
+},
+{
+    "front": "Which of the following properties are relevant to the type of facet?",
+    "back": "purpose, type"
+},
+{
+    "front": "If your back end system is based on ABAP 7.50, which are available ways of using facets?",
+    "back": "Declare both field groups and facet as local annotation using BAS, Declare field group in CDS View declare facets as local annotation using BAS"
+},
+{
+    "front": "What attribute is assigned to the @UI.fieldGroup to add an identifier?",
+    "back": "Add property qualifier to field group and assign a unique identifier"
+},
+{
+    "front": "Assigning properties to header facet for qualifier reference",
+    "back": "@UI.datapoint for lineItem pointing using targetQualifier from facet in question"
+},
+{
+    "front": "The CDS annotation @UI.facet is used to",
+    "back": "Create a Header Facet, Create a collection facet which is displayed as section, Create a reference under collection facet"
+},
+{
+    "front": "Add a not header section to object page inside a listreport",
+    "back": "Add a facet of type collection and use UI.Identification to reference the fields"
+},
+{
+    "front": "add a item/facet to a collection inside @UI.facet",
+    "back": "Reference the collection(defined in facet as #COLLECTION) by setting parentId value"
+},
+{
+    "front": "A section in an object page is...",
+    "back": "defined in a projection view file"
+},
+{
+    "front": "A type in facets for defining one or more data fields in for example a object page",
+    "back": "type #FIELDGROUP_REFERENCE in @UI.facet value referenced using @UI.fieldGroup with qualifier and position for item/at lineItem"
+},
+{
+    "front": "Add table to object page in List Report(CDS)",
+    "back": "Create UI facet of type LINEITEM_REFERENCE and add to data definition folder a metadata extension to create a list using @UI.lineItem definitons as in listreport"
+},
+{
+    "front": "What determines the position of a column in a table (CDS)",
+    "back": "The value of the property 'position' in the associated lineItem"
+},
+{
+    "front": "Which steps in BAS provides the connection of the application to odata service when creating fiori elements apps",
+    "back": "Data Source, and Service Selection"
+},
+{
+    "front": "flexible column layout set in with BAS",
+    "back": "Page map"
+},
+{
+    "front": "What is the page map used for",
+    "back": "Showing the UI Structure of the application, Maintaining parameters to control the application behavior"
+},
+{
+    "front": "How do you make a List Report show data with out having to hit go on visit",
+    "back": "Enable Initial Load"
+},
+{
+    "front": "What are the main reasons for using the SAP Fiori elements for OData v4 OPA test library?",
+    "back": "You save a lot of time, You avoid repeatedly rewriting the same code, You keep your test up-to-date with central SAP Fiori elements framework changes"
+},
+{
+    "front": "Where is mockdata stored in a Fiori elements project?",
+    "back": "localService/mockdata in json"
+},
+{
+    "front": "What file is started when you execute test from BAS SAP Fiori app?",
+    "back": "test/integration/opaTests.quinit.html"
+},
+{
+    "front": "File that imports page objects and OPA journeys you execute?",
+    "back": "test/integration/Opa.qunit.js"
+},
+{
+    "front": "How are opa journeys started?",
+    "back": "With the JourneyRunner"
+},
+{
+    "front": "opaTest funciton arguments",
+    "back": "Given, When, Then"
+},
+{
+    "front": "in an OPA Journey how is the application started?",
+    "back": "With function iStartMyApp()"
+},
+{
+    "front": "Why is the application used by the tests started within SAP Fiori Launchpad?",
+    "back": "To be able to use shell functions like navigating back from objectpages"
+},
+{
+    "front": "Various run scripts for npm stored in a Fiori project",
+    "back": "in package.json under 'scripts'"
+},
+{
+    "front": "url to trigger opaTests",
+    "back": "/webapp/test/integration/opaTests.qunit.html"
+},
+{
+    "front": "namespace for OPA tests",
+    "back": "sap.fe.test"
+},
+{
+    "front": "making additional checks with OPA Journey",
+    "back": ".and.iTest({\"check\": \"this\"})"
+},
+{
+    "front": "Load filter data into the list report table with OPA",
+    "back": "iChangeFilterField('item', 'filterdat').and.iExecuteSearch()"
+},
+{
+    "front": "Why wouldnt you use the test function iExecuteAction() for pressing go in a list report?",
+    "back": "There are specific actions for triggering SAP Fiori elements standard actions, I would use test function iExecuteSearch(), since it is easier to use and no params have to be passed to the function."
+},
+{
+    "front": "four blocks of sap fiori launchpad",
+    "back": "Header, Anchor bar, Groups, Footer(optional)"
+},
+{
+    "front": "Launchpad url",
+    "back": "/sap/bc/ ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+},
+{
+    "front": "Launch pad abap transaction/cache buster",
+    "back": "/sap/bc/ui2/flp"
+}
+]

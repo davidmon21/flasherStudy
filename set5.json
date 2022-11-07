@@ -1,0 +1,263 @@
+[    {
+        "front": "To specify group ID use paramaters for binding which triggers the request _____ for read request and ____ for update request",
+        "back": "$$groupId, $$updateGroupId"
+    },
+    {
+        "front": "The create() method returns the binding context, that context provides the ____ method which returns a Promise",
+        "back": "created()"
+    },
+    {
+        "front": "SAP BTP BAS Config: ___ for consuming odata, ____ for extending existing fiori apps, ____ for executing sapui5 apps",
+        "back": "odata_abap, dev_abap, ui5_execute_abap"
+    },
+    {
+        "front": "What is the principle of SAP UX Strategy",
+        "options": {"A": "Design Strategy", "B": "New Renew Enablement", "C": "New Renew Empower", "D": "Architecture and Technology", "E": "Sap Screen Personas"},
+        "back": ["C"]
+    },
+    {
+        "front": "What impact does SAP Fiori have on business?",
+        "options": {"A": "Digitalization", "B": "Simplification", "C": "Support the web and Open Standdards", "D": "Provides a user centered approach", "E": "Leads to re-imagination of processes"},
+        "back": ["A","B","E"]
+    },
+    {
+        "front": "What are the goals of the SAPUI5 framework?",
+        "options": {"A": "Provide a user interface technology for building and adapting client applications", "B": "Provide a user interface technology for building and adapting server-based applications", "C": "Provide a lightweight programming model for desktop only applications", "D": "Provide an extensible framework for building desktop and mobile applications"},
+        "back": ["A","D"]
+    },
+    {
+        "front": "Discover phase",
+        "back": "Scope, Research, Synthesize, Understand your end users needs"
+    },
+    {
+        "front": "Design Phase",
+        "back": "Ideate, Prototype, Validate, Fail fast, fail Early, Sketch out solutions, getfeedback try again"
+    },
+    {
+        "front": "Develop phase",
+        "back": "Implement, Test, Deploy, Start development once user satisfaction is confirmed"
+    },
+    {
+        "front": "/company/@name possible binding for XML view?",
+        "back": "yes/true"
+    },
+    {
+        "front": "@name info/employees/text() appropriate binding syntax?",
+        "back": "yes"
+    },
+    {
+        "front": "To get path information of selected item of model, use function ______",
+        "back": "getBindingContext().getPath()"
+    },
+    {
+        "front": "To use Expression Binding you need to enable Extended Binding Syntax via configuration setting _____ set to complex",
+        "back": "xx-bindingSyntax"
+    },
+    {
+        "front": "_____: Where user can bookmark places in an app, Do not require user to start at top of page and descend through multiple links just to get information from a specific page",
+        "back": "Deep linking"
+    },
+    {
+        "front": "Allows you to determin various runtime platform characteristics, stored in client-side JSON Model, Defined in component",
+        "back": "sap.ui.Device"
+    },
+    {
+        "front": "resource bundle config defined in ____ object of manifest.json file",
+        "back": "sap.ui5"
+    },
+    {
+        "front": "Master-Detail design pattern supported by ____ or ____ control",
+        "back": "sap.m.SplitApp, sap.f.FlexibleColumnLayout"
+    },
+    {
+        "front": "___ defines overall layout of application, root view instantiated at app start by the Component",
+        "back": "App View"
+    },
+    {
+        "front": "Store JS code in ___ folder, for code that needs to be reused accross multiple controllers, ex define a formater that can be used for data display",
+        "back": "util"
+    },
+    {
+        "front": "route with optional parameter",
+        "back": "product/{id}/detail/:detailid:"
+    },
+    {
+        "front": "route for mandatory pattern",
+        "back": "prouduct/{id}"
+    },
+    {
+        "front": "Defines a name, pattern and optionally one or more targets to which to navigate when has been matched",
+        "back": "route"
+    },
+    {
+        "front": "defines a view that is displayed, associated with on or more routes",
+        "back": "target"
+    },
+    {
+        "front": "if you do not specify a parameter for a target, a default value is taken from the config ___",
+        "back": "section.ViewType"
+    },
+    {
+        "front": "Targets: Different levels define navigation direction, lower level to higher level leads to forward navigation",
+        "back": "viewLevel"
+    },
+    {
+        "front": "Targets: The control that is used to display the view",
+        "back": "controlId"
+    },
+    {
+        "front": "Targets: target aggregation to which a view is added, eg NavContainer control has aggregation called Pages and shell container has content",
+        "back": "controlAggregation"
+    },
+    {
+        "front": "Targets: a view created and added before target view is added",
+        "back": "parent"
+    },
+    {
+        "front": "Targets: where the view is located in the app",
+        "back": "viewPath"
+    },
+    {
+        "front": "Targets: where the control is located",
+        "back": "targetParent"
+    },
+    {
+        "front": "Targets: specifies whether the aggregation should be cleared before adding the new view instance, when you use sap.m.routing.Router the default is false, for sap.ui.core.routing.Router it is true",
+        "back": "clearAggregation"
+    },
+    {
+        "front": "the router is configured using the _____ in the config customizing object in the ____",
+        "back": "routerClass-property, routing-object"
+    },
+    {
+        "front": "Routers are initialized in _____ ____ function",
+        "back": "Component.js init"
+    },
+    {
+        "front": "To access the router and to use its functions use ___ or the static ____ of the UI component, you can pass either a controller or a view",
+        "back": "this.getOwnerComponent().getRouter() function, sap.ui.core.UIComponent.getRouterFor(this) function"
+    },
+    {
+        "front": "___ method can be used in code for navigation to a defined route name",
+        "back": "navTo()"
+    },
+    {
+        "front": "parameters are passed with ___ handled in ____ to exchange data between views",
+        "back": "navTo, attachRouteMatched"
+    },
+    {
+        "front": "access configured targets using the _____ method",
+        "back": "this.getRouter().getTarget(target)"
+    },
+    {
+        "front": "navigation events are documented in the psuedo interface ___",
+        "back": "sap.m.NavcontainerChild"
+    },
+    {
+        "front": "the default routerClass is _____",
+        "back": "sap.ui.core.routing.Router"
+    },
+    {
+        "front": "Available transition animation types for navigation are",
+        "back": "slide(default), flip, fade, show"
+    },
+    {
+        "front": "onNavBack function navigates to previous has value in app history, if this is not present it navigates to ____",
+        "back": "overview route"
+    },
+    {
+        "front": "function navTo of router is invoked using the name of the route and a boolean parameter indicating if ____ should be created",
+        "back": "browser history entry"
+    },
+    {
+        "front": "mandatory query parameter for route",
+        "back": "{?query}"
+    },
+    {
+        "front": "optional query parameter for route",
+        "back": ":?query:"
+    },
+    {
+        "front": "Aggregation entites of sap.f.FlexibleColumnLayout",
+        "back": "beginColumnPages, midColumnPages, endColumnPages"
+    },
+    {
+        "front": "Control ____ handles correct visulization on different devices and screensizes using the letterboxing concept, contains the sap.m.App control",
+        "back": "sap.m.Shell"
+    },
+    {
+        "front": "Targets can also be displayed directly in an app without hitting a route",
+        "back": "true"
+    },
+    {
+        "front": "Components of sap.f.DynamicPage control",
+        "back": "DynamicPageTitle, DynamicPageHeader, Content, Footer"
+    },
+    {
+        "front": "if diplaying a sap.m.FlexBox with non-adaptive content set the _____ property of the flexbox to false",
+        "back": "fitContainer"
+    },
+    {
+        "front": "Object page layout",
+        "back": "sap.uxap.ObjectPageLayout"
+    },
+    {
+        "front": "Object page layout content structure",
+        "back": "Header, Anchor Bar, Sections, Subsections, Blocks"
+    },
+    {
+        "front": "wrapper object for Master view list in detail view",
+        "back": "ListSelector"
+    },
+    {
+        "front": "3 states of Promise in javascript",
+        "back": "Pending, Fulfilled, Rejected"
+    },
+    {
+        "front": "messages: (client side) refer to control; they are created from the input validation and by the application itself",
+        "back": "UI messages"
+    },
+    {
+        "front": "messages: refer to a binding path; they are managed by the server and are changed every time the back end responds to a request",
+        "back": "Server Message"
+    },
+    {
+        "front": "required anatomy of messages",
+        "back": "ID, Type, Target, Message processor, Message Text"
+    },
+    {
+        "front": "Message manager can be accessed by calling",
+        "back": "sap.ui.getCore().getMessageManager()"
+    },
+    {
+        "front": "You can activate automatic message generation in manifest.json with",
+        "back": "sap.ui5.handleValidation: true or as parameter when instantiating Component data-handle-validation=\"true\""
+    },
+    {
+        "front": "Activate automatic message creation for individual controls by",
+        "back": "registering the control in the messagemanger, sap.ui.getCore().getMessageManager().registerObject(oInput,true)"
+    },
+    {
+        "front": "add message manually to the message manager",
+        "back": "oMessageManger.addMessage(new Message({}))"
+    },
+    {
+        "front": "set message for odata error",
+        "back": "\"error\": \"code\":\"\", \"message\":{\"lang\":\"en-US\", \"value\": \"Error message\"}}"
+    },
+    {
+        "front": "Dialogs do not automatically inherit content density, to set content density same as parent use convenience function",
+        "back": "sap.ui.core.syncStyleClass"
+    },
+    {
+        "front": "Custom control and component libraries: library.js file calls the ____ method with an objec that describes the content of the library",
+        "back": "sap.ui.getCore().initLibrary()"
+    },
+    {
+        "front": "Custom control and component libraries: A normilized version of lib info can be returned with ",
+        "back": "getLoadedLibraries()"
+    },
+    {
+        "front": "Mandatory attributes for manifest.json of cutom library",
+        "back": "id, type, applicationVersion"
+    }]
